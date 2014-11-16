@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<level levelnum="1">
+		<puzzle name="Castle" puzzlenum="1">
+			<row>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Fish" puzzlenum="2">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Balloon" puzzlenum="3">
+			<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Arrow" puzzlenum="4">
+				<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				</row>
+				<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				</row>
+			<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="TV" puzzlenum="5">
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(148, 63, 7)">true</cell>
+				<cell color="rgb(148, 63, 7)">true</cell>
+				<cell color="rgb(148, 63, 7)">true</cell>
+				<cell color="rgb(148, 63, 7)">true</cell>
+				<cell color="rgb(148, 63, 7)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(148, 63, 7)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(148, 63, 7)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(148, 63, 7)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(254, 216, 177)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(148, 63, 7)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="E" puzzlenum="6">
+			<row>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="House" puzzlenum="7">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(91, 210, 192)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Mug" puzzlenum="8">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Mask" puzzlenum="9">
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Chair" puzzlenum="10">
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+	</level>
+</root>
+
+	
