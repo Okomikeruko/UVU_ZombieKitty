@@ -171,7 +171,7 @@
 			var xy = $("select#size").val();
 			var x = parseInt(xy);
 			var y = parseInt(xy.substr(xy.indexOf("x")+1));
-			var output = "%3Cpuzzle%20name%3D%22" + xname + "%22%20puzzlenum%3D%22" + xnum + "%22%3E";
+			var output = "%3Cpuzzle%20name%3D%22" + xname + "%22%20puzzlenum%3D%22" + xnum + "%22%3E%0A";
 			for (i = 0; i < x; i++){
 				output += "%3Crow%3E%0A";
 				for (j = 0; j < y; j++){
