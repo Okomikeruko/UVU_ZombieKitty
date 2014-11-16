@@ -1,3 +1,4 @@
+<?php $password = "D7+#ETE@gMR&"; ?>
 <!doctype html>
 <html>
 <head>
