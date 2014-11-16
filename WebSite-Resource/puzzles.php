@@ -107,6 +107,8 @@
     <h2>Step 3:</h2>
     <p>Generate your XML code</p>
     <form id="xml">
+    	<label>Puzzle Name</label><input type="text" name="name" id="xml-name"> <br />
+        <label>Puzzle Number</label><input type="text" name="number" id="xml-num"> <br />
 	    <button name="submit" type="submit">Generate XML</button>
         	<br />
     	<label>Text Area</label>
@@ -156,7 +158,7 @@
 					}
 					
 					layout += "</tr>";
-				}//x + " by " + y;
+				}
 				layout += "</table>";
 				$("div.workarea").html(layout);	
 			}
@@ -164,11 +166,12 @@
 		
 		$("form#xml").submit(function(event) {
 			event.preventDefault();
+			var xnum = $("input#xml-num").val();
+			var xname = $("input#xml-name").val();
 			var xy = $("select#size").val();
 			var x = parseInt(xy);
 			var y = parseInt(xy.substr(xy.indexOf("x")+1));
-			var output = "%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A";
-			output += "%3Cpuzzle%3E%0A";
+			var output = "%3Cpuzzle%20name%3D%22" + xname + "%22%20puzzlenum%3D%22" + xnum + "%22%3E";
 			for (i = 0; i < x; i++){
 				output += "%3Crow%3E%0A";
 				for (j = 0; j < y; j++){
