@@ -26,12 +26,17 @@ public class PuzzleParser : MonoBehaviour {
 			{
 				foreach(Puzzle puzzle in level.puzzles)
 				{
-					foreach (Row row in puzzle.rows)
+					puzzle.rowClues = puzzle.getClues ("row");
+					puzzle.colClues = puzzle.getClues ("column");
+
+					foreach (List<int> list in puzzle.rowClues)
 					{
-						foreach (Cell cell in row.cells)
+						string s = "Clues: ";
+						foreach (int clue in list)
 						{
-							Debug.Log (cell.getColor());
+							s += clue + " ";
 						}
+						Debug.Log(s);
 					}
 				}
 			}
@@ -104,7 +109,7 @@ public class Puzzle
 
 	public bool unlocked { get; set; }
 
-	public Clues rowClues, colClues;
+	public List<List<int>> rowClues, colClues;
 
 	public Puzzle()
 	{
@@ -112,21 +117,65 @@ public class Puzzle
 		rows = new List<Row>();
 	}
 
-	public Clues getClues(string type)
+	public List<List<int>> getClues(string type)
 	{
-		Clues c;
+		List<List<int>> clues = new List<List<int>>();
 		switch(type)
 		{
 		case "row":
-			//Generate Row Clues
+			foreach (Row row in rows)
+			{
+				List<int> clue = new List<int>();
+				clue.Add (0);
+				int c = 0;
+				foreach (Cell cell in row.cells)
+				{
+					if(cell.isHealthy())
+					{
+						clue[c]++;
+					}
+					else if(clue[c] > 0)
+					{
+						clue.Add (0);
+						c++;
+					}
+				}
+				if (clue[c] == 0)
+				{
+					clue.RemoveAt(c);
+				}
+				clues.Add (clue);
+			}
 			break;
 		case "column":
-			//Generate Column Clues
+			for (int col = 0; col < rows[0].cells.Count; col++)
+			{
+				List<int> clue = new List<int>();
+				clue.Add (0);
+				int c = 0;
+				for (int row = 0; row < rows.Count; row++)
+				{
+					if(rows[row].cells[col].isHealthy())
+					{
+						clue[c]++;
+					}
+					else if(clue[c] > 0)
+					{
+						clue.Add (0);
+						c++;
+					}
+				}
+				if (clue[c] == 0)
+				{
+					clue.RemoveAt(c);
+				}
+				clues.Add (clue);
+			}
 			break;
 		default:
 			break;
 		}
-		return c;
+		return clues;
 	}
 }
 
@@ -174,15 +223,5 @@ public class Cell
 		{
 			return Color.clear;
 		}
-	}
-}
-
-public class Clues
-{
-	public List<List<int>> clueList;
-
-	public Clues()
-	{
-		clueList = new List<List<int>>();
 	}
 }
