@@ -28,16 +28,6 @@ public class PuzzleParser : MonoBehaviour {
 				{
 					puzzle.rowClues = puzzle.getClues ("row");
 					puzzle.colClues = puzzle.getClues ("column");
-
-					foreach (List<int> list in puzzle.rowClues)
-					{
-						string s = "Clues: ";
-						foreach (int clue in list)
-						{
-							s += clue + " ";
-						}
-						Debug.Log(s);
-					}
 				}
 			}
 		}
@@ -140,7 +130,7 @@ public class Puzzle
 						c++;
 					}
 				}
-				if (clue[c] == 0)
+				if (clue[c] == 0 && c > 0)
 				{
 					clue.RemoveAt(c);
 				}
@@ -165,7 +155,7 @@ public class Puzzle
 						c++;
 					}
 				}
-				if (clue[c] == 0)
+				if (clue[c] == 0 && c > 0)
 				{
 					clue.RemoveAt(c);
 				}
