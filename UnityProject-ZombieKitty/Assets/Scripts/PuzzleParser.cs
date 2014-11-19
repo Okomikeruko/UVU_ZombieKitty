@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml;
-using System.Xml.Serialization;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Xml;
+using System.Xml.Serialization;
 
 public class PuzzleParser : MonoBehaviour {
 	
@@ -16,12 +17,12 @@ public class PuzzleParser : MonoBehaviour {
 
 	void Start()
 	{
+		DontDestroyOnLoad(this.gameObject);
 		_Location = Application.dataPath + "\\XML";
 		LoadPuzzles();
 		if(Data.ToString() != "")
 		{
 			allPuzzles = (Library)DeserializeObject(Data);
-
 			foreach(Level level in allPuzzles.levels)
 			{
 				foreach(Puzzle puzzle in level.puzzles)
@@ -30,6 +31,7 @@ public class PuzzleParser : MonoBehaviour {
 					puzzle.colClues = puzzle.getClues ("column");
 				}
 			}
+			Application.LoadLevel("Menu");
 		}
 	}
 
@@ -44,7 +46,6 @@ public class PuzzleParser : MonoBehaviour {
 	{
 		XmlSerializer xs = new XmlSerializer(typeof(Library));
 		MemoryStream memoryStream = new MemoryStream(StringToUTF8ByteArray(pXmlizedString));
-		XmlTextWriter xmlTextWriter = new XmlTextWriter(memoryStream, Encoding.UTF8);
 		return xs.Deserialize(memoryStream);
 	}
 
@@ -98,13 +99,17 @@ public class Puzzle
 	public List<Row> rows { get; set; }
 
 	public bool unlocked { get; set; }
-
 	public List<List<int>> rowClues, colClues;
 
 	public Puzzle()
 	{
 		unlocked = false;
 		rows = new List<Row>();
+	}
+
+	public int getLongest (List<List<int>> list)
+	{
+		return list.OrderBy(x => x.Count).Last ().Count;
 	}
 
 	public List<List<int>> getClues(string type)
