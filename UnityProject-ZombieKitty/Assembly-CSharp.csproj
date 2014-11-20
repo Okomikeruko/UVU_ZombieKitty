@@ -55,7 +55,6 @@
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
      <Compile Include="Assets\Scripts\PlayerData.cs" />
      <Compile Include="Assets\Scripts\PuzzleParser.cs" />
-     <None Include="Assets\XML\gamesettings.xml" />
      <None Include="Assets\XML\playerdata.xml" />
      <None Include="Assets\XML\puzzles.xml" />
   </ItemGroup>
