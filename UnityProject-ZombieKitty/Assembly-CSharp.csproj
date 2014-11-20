@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\GUI\LevelMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\MainMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\MenuController.cs" />
+     <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
      <Compile Include="Assets\Scripts\PuzzleParser.cs" />
      <None Include="Assets\XML\puzzles.xml" />
   </ItemGroup>

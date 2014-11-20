@@ -6,10 +6,15 @@ public class LevelMenuGUI : MonoBehaviour {
 	[SerializeField]
 	public ButtonClass MainMenu;
 
+	[SerializeField]
+	private GameObject PuzzleMenuObject;
+
 	private PuzzleParser puzzleParser;
+	private PuzzleMenuGUI puzzleMenuGUI;
 
 	void Start() {
 		puzzleParser = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>();
+		puzzleMenuGUI = PuzzleMenuObject.GetComponent<PuzzleMenuGUI>();
 	}
 
 	void OnGUI() {
@@ -24,7 +29,8 @@ public class LevelMenuGUI : MonoBehaviour {
 		{
 			if(GUI.Button (new Rect (10 + (130*i), 60 ,120,40), level.levelnum.ToString()))
 			{
-				Debug.Log("Level " + level.levelnum);
+				puzzleMenuGUI.levelNum = i;
+				MenuController.ChangeMenu(PuzzleMenuObject, this.gameObject);
 			}
 			i++;
 		}

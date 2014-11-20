@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LevelMenuGUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\LevelMenuGUI.cs">
     <Files>
-      <File FileName="Assets\Scripts\PuzzleParser.cs" Line="34" Column="34" />
-      <File FileName="Assets\MainMenuGUI.cs" Line="12" Column="4" />
-      <File FileName="Assets\MenuController.cs" Line="27" Column="31" />
-      <File FileName="Assets\LevelMenuGUI.cs" Line="28" Column="5" />
+      <File FileName="Assets\Scripts\GUI\PuzzleMenuGUI.cs" Line="28" Column="28" />
+      <File FileName="Assets\Scripts\GUI\LevelMenuGUI.cs" Line="26" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
