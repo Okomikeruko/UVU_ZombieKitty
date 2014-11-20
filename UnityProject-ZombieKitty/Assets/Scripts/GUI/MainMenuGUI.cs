@@ -15,13 +15,14 @@ public class MainMenuGUI : MonoBehaviour {
 
 		if(GUI.Button (Options.rect, Options.title))
 		{
-			Debug.Log ("Options");
+			MenuController.ChangeMenu(Options.menuObject, this.gameObject);
 		}
 
 		if(GUI.Button (User.rect, User.title))
 		{
 			Debug.Log ("User");
 		}
+
 	}
 }
 

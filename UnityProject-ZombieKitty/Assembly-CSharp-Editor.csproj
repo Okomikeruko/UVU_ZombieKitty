@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\MenuControllerEditor.cs" />
+     <None Include="Assets\XML\gamesettings.xml" />
+     <None Include="Assets\XML\playerdata.xml" />
      <None Include="Assets\XML\puzzles.xml" />
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
