@@ -17,14 +17,22 @@ public class PlayerData : MonoBehaviour {
 	private string Filename;
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
 		DontDestroyOnLoad(this.gameObject);
 		_Location = Application.dataPath + "\\XML";
 		LoadData();
 		if(Data.ToString() != "")
 		{
 			playerData = (Players)DeserializeObject(Data);
+			foreach (Player p in playerData.players)
+			{
+				if(p.isCurrent)
+				{
+					CurrentPlayer = p;
+				}
+			}
 		}
+		Application.LoadLevel("Menu");
 	}
 
 	byte[] StringToUTF8ByteArray(string pXmlString)
@@ -60,7 +68,7 @@ public class PlayerData : MonoBehaviour {
 		return XmlizedString;
 	}
 
-	void LoadData()
+	public void LoadData()
 	{
 		StreamReader r = File.OpenText(_Location + "\\" + Filename);
 		string info = r.ReadToEnd();
@@ -68,7 +76,7 @@ public class PlayerData : MonoBehaviour {
 		Data = info;
 	}
 
-	void SaveData()
+	public void SaveData()
 	{
 		string saveData = SerializeObject(playerData);
 		StreamWriter writer;
@@ -97,13 +105,18 @@ public class Players
 	{
 		players = new List<Player>();
 	}
+
+	public void setCurrentPlayer(string playerName)
+	{
+		foreach (Player player in players)
+		{
+			player.isCurrent = (player.name == playerName);
+		}
+	}
 }
 
 public class Player
 {
-	[XmlAttribute("id")]
-	public int id { get; set; }
-
 	[XmlElement("name")]
 	public string name { get; set; } 
 
@@ -115,6 +128,15 @@ public class Player
 
 	[XmlElement("settings")]
 	public GameSettings settings { get; set; }
+
+	public Player() {}
+
+	public Player(string newName)
+	{
+		name = newName;
+		progress = new Progress();
+		settings = new GameSettings();
+	}
 }
 
 public class Progress
@@ -166,5 +188,11 @@ public class GameSettings
 	public float sfxVolume { get; set;}
 
 	[XmlElement("playmode")]
-	public string playmode { get; set; }
+	public int playmode { get; set; }
+
+	public GameSettings()
+	{
+		musicVolume = sfxVolume = 0.5F;
+		playmode = 0;
+	}
 }

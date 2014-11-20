@@ -15,7 +15,7 @@ public class PuzzleParser : MonoBehaviour {
 	[SerializeField]
 	private string Filename;
 
-	void Start()
+	void Awake()
 	{
 		DontDestroyOnLoad(this.gameObject);
 		_Location = Application.dataPath + "\\XML";
@@ -31,7 +31,6 @@ public class PuzzleParser : MonoBehaviour {
 					puzzle.colClues = puzzle.getClues ("column");
 				}
 			}
-			Application.LoadLevel("Menu");
 		}
 	}
 

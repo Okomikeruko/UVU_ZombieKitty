@@ -1,11 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<player id="4">
-		<name>lee</name>
-		<settings>
-			<music>50</music>
-			<sfx>50</sfx>
-			<playmode>easy</playmode>
-		</settings>
-	</player>
-</root>
+﻿<?xml version="1.0" encoding="utf-8"?><root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><player current="true"><name>Lee</name><progress /><settings><music>0.25</music><sfx>0.727272749</sfx><playmode>1</playmode></settings></player></root>

@@ -20,7 +20,7 @@ public class MainMenuGUI : MonoBehaviour {
 
 		if(GUI.Button (User.rect, User.title))
 		{
-			Debug.Log ("User");
+			MenuController.ChangeMenu (User.menuObject, this.gameObject);
 		}
 
 	}
