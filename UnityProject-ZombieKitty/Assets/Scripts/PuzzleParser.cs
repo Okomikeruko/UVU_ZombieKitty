@@ -11,6 +11,7 @@ using System.Xml.Serialization;
 public class PuzzleParser : MonoBehaviour {
 	
 	public Library allPuzzles;
+	public Puzzle currentPuzzle;
 	private string Data, _Location;
 	[SerializeField]
 	private string Filename;
