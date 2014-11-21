@@ -12,6 +12,7 @@ public class PuzzleBuilder : MonoBehaviour {
 	void Start () {
 		puzzle = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>().currentPuzzle;
 		BuildPuzzle(puzzle);
+		CenterCamera();
 	}
 	
 	void BuildPuzzle(Puzzle p)
@@ -43,7 +44,6 @@ public class PuzzleBuilder : MonoBehaviour {
 			}
 			k--;
 		}
-
 	}
 
 	void MakeCell(Cell cell, int x, int y)
@@ -59,5 +59,15 @@ public class PuzzleBuilder : MonoBehaviour {
 		GameObject c = Instantiate (Clue, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
 		ClueBehavior b = c.GetComponent<ClueBehavior>();
 		b.clueValue = value;
+	}
+
+	void CenterCamera()
+	{
+		float w = puzzle.getLongest (puzzle.rowClues) + puzzle.rows[0].cells.Count;
+		float h = puzzle.getLongest (puzzle.colClues) + puzzle.rows.Count;
+		Vector3 pos = new Vector3(-w/2.0F, h/2.0F, -10);
+		GameObject camera = GameObject.Find ("Main Camera");
+		camera.transform.position = pos;
+		camera.camera.orthographicSize = (h/2.0F)+1;
 	}
 }
