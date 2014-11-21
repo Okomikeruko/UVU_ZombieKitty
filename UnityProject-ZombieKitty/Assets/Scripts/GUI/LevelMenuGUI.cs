@@ -29,7 +29,7 @@ public class LevelMenuGUI : MonoBehaviour {
 		int i = 0;
 		foreach(Level level in puzzleParser.allPuzzles.levels)
 		{
-			GUI.enabled = currentPlayer.progress.Level.Count > i;
+			//GUI.enabled = currentPlayer.progress.Level.Count > i;
 			if(GUI.Button (new Rect (10 + (130*i), 60 ,120,40), level.levelnum.ToString()))
 			{
 				puzzleMenuGUI.levelNum = i;

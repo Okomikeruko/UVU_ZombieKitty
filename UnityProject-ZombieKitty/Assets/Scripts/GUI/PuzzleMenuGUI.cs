@@ -25,7 +25,7 @@ public class PuzzleMenuGUI : MonoBehaviour {
 		int i = 0;
 		foreach (Puzzle puzzle in puzzleParser.allPuzzles.levels[levelNum].puzzles)
 		{
-			GUI.enabled = currentPlayer.progress.Level[levelNum].puzzle.Count > i;
+			//GUI.enabled = currentPlayer.progress.Level[levelNum].puzzle.Count > i;
 			ButtonClass b = new ButtonClass();
 			b.title = puzzle.name;
 			b.rect = new Rect(20 + 80*i, 50, 70, 50);

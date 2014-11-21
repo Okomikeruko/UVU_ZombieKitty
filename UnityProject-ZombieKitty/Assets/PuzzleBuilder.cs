@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
 public class PuzzleBuilder : MonoBehaviour {
@@ -30,6 +31,17 @@ public class PuzzleBuilder : MonoBehaviour {
 				j--;
 			}
 			i--;
+		}
+		int k = 0;
+		foreach (List<int> clues in p.colClues.Reverse<List<int>>())
+		{
+			int l = 1;
+			foreach (int clue in clues.Reverse<int>())
+			{
+				MakeClue (clue, k, l + p.rows.Count);
+				l++;
+			}
+			k--;
 		}
 
 	}
