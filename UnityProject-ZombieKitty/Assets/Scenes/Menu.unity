@@ -206,6 +206,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!1 &1056495645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1056495647}
+  - 114: {fileID: 1056495646}
+  m_Layer: 0
+  m_Name: PlayMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1056495646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1056495645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49954a104fba474488e0496ffec2c0ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenu:
+    title: Main Menu
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 420
+      width: 120
+      height: 40
+    menuObject: {fileID: 1897600381}
+  PuzzleMode:
+    title: Puzzle Mode
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 360
+      width: 120
+      height: 40
+    menuObject: {fileID: 1314580695}
+--- !u!4 &1056495647
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1056495645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &1089458991
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +298,7 @@ MonoBehaviour:
       y: 420
       width: 120
       height: 40
-    menuObject: {fileID: 1123165786}
+    menuObject: {fileID: 1897600381}
 --- !u!4 &1089458993
 Transform:
   m_ObjectHideFlags: 0
@@ -332,14 +389,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainMenu:
-    title: Main Menu
+    title: Back
     rect:
       serializedVersion: 2
       x: 720
       y: 420
       width: 120
       height: 40
-    menuObject: {fileID: 1897600381}
+    menuObject: {fileID: 1056495645}
   PuzzleMenuObject: {fileID: 1054036197}
 --- !u!4 &1314580697
 Transform:
@@ -487,7 +544,7 @@ MonoBehaviour:
       y: 300
       width: 120
       height: 40
-    menuObject: {fileID: 1314580695}
+    menuObject: {fileID: 1056495645}
   Options:
     title: Option
     rect:

@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\OptionsMenuGUI.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayMenuGUI.cs">
     <Files>
       <File FileName="Assets\Scripts\PuzzleParser.cs" Line="33" Column="5" />
-      <File FileName="Assets\Scripts\PlayerData.cs" Line="189" Column="1" />
-      <File FileName="Assets\Scripts\GUI\MainMenuGUI.cs" Line="23" Column="64" />
-      <File FileName="Assets\Scripts\GUI\MenuController.cs" Line="4" Column="46" />
-      <File FileName="Assets\Scripts\GUI\OptionsMenuGUI.cs" Line="11" Column="8" />
+      <File FileName="Assets\Scripts\PlayerData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI\MainMenuGUI.cs" Line="17" Column="31" />
+      <File FileName="Assets\Scripts\GUI\MenuController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI\OptionsMenuGUI.cs" Line="19" Column="1" />
       <File FileName="Assets\Scripts\GUI\PlayerMenuGUI.cs" Line="27" Column="84" />
       <File FileName="Assets\Scripts\GUI\NewUserGUI.cs" Line="36" Column="102" />
+      <File FileName="Assets\PlayMenuGUI.cs" Line="17" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

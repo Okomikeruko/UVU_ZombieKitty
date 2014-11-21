@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GUI\MenuController.cs" />
      <Compile Include="Assets\Scripts\GUI\NewUserGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\OptionsMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlayMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
      <Compile Include="Assets\Scripts\PlayerData.cs" />

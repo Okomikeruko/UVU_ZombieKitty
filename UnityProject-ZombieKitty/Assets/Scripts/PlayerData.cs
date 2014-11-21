@@ -135,6 +135,8 @@ public class Player
 	{
 		name = newName;
 		progress = new Progress();
+		progress.Level.Add(new LevelProgress());
+		progress.Level[0].puzzle.Add(new PuzzleData());
 		settings = new GameSettings();
 	}
 }
@@ -163,12 +165,6 @@ public class LevelProgress
 
 public class PuzzleData
 {
-	[XmlAttribute("unlocked")]
-	public bool unlocked { get; set; }
-
-	[XmlAttribute("num")]
-	public int num { get; set; }
-
 	[XmlElement("highscore")]
 	public int highscore { get; set; }
 
@@ -177,6 +173,11 @@ public class PuzzleData
 
 	[XmlElement("lives")]
 	public int lives { get; set; }
+
+	public PuzzleData()
+	{
+		highscore = lives = 0;
+	}
 }
 
 public class GameSettings
