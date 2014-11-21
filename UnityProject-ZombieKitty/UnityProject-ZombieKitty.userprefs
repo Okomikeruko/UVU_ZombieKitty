@@ -1,13 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\PuzzleMenuGUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PuzzleBuilder.cs">
     <Files>
       <File FileName="Assets\BoxBehaviour.cs" Line="28" Column="17" />
-      <File FileName="Assets\Scripts\PlayerData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerData.cs" Line="139" Column="50" />
       <File FileName="Assets\Scripts\PuzzleParser.cs" Line="14" Column="30" />
-      <File FileName="Assets\Scripts\GUI\LevelMenuGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GUI\PuzzleMenuGUI.cs" Line="49" Column="5" />
-      <File FileName="Assets\ClueBehavior.cs" Line="12" Column="44" />
+      <File FileName="Assets\Scripts\GUI\LevelMenuGUI.cs" Line="32" Column="6" />
+      <File FileName="Assets\Scripts\GUI\PuzzleMenuGUI.cs" Line="28" Column="6" />
+      <File FileName="Assets\ClueBehavior.cs" Line="12" Column="3" />
+      <File FileName="Assets\PuzzleBuilder.cs" Line="39" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
