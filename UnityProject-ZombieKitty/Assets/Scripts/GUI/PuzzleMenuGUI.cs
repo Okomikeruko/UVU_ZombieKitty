@@ -34,7 +34,8 @@ public class PuzzleMenuGUI : MonoBehaviour {
 				puzzleParser.currentPuzzle = puzzle;
 				Application.LoadLevel("Game");
 
-				/*if (currentPlayer.progress.Level[levelNum].puzzle.Count == puzzleParser.allPuzzles.levels[levelNum].puzzles.Count &&
+				/*
+				if (currentPlayer.progress.Level[levelNum].puzzle.Count == puzzleParser.allPuzzles.levels[levelNum].puzzles.Count &&
 				    levelNum < puzzleParser.allPuzzles.levels.Count - 1)
 				{
 					currentPlayer.progress.Level.Add(new LevelProgress());
@@ -44,7 +45,8 @@ public class PuzzleMenuGUI : MonoBehaviour {
 				{
 					currentPlayer.progress.Level[levelNum].puzzle.Add(new PuzzleData());
 				}
-				GameObject.Find ("PlayerData").GetComponent<PlayerData>().SaveData();*/
+				GameObject.Find ("PlayerData").GetComponent<PlayerData>().SaveData();
+				*/
 			}
 			i++;
 		}
