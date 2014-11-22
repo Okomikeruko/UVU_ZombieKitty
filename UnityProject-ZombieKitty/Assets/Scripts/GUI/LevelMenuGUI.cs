@@ -12,11 +12,13 @@ public class LevelMenuGUI : MonoBehaviour {
 	private Player currentPlayer;
 	private PuzzleParser puzzleParser;
 	private PuzzleMenuGUI puzzleMenuGUI;
+	private PlayerData playerData;
 
 	void OnEnable() {
-		currentPlayer = GameObject.Find ("PlayerData").GetComponent<PlayerData>().CurrentPlayer;
+		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
 		puzzleParser = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>();
 		puzzleMenuGUI = PuzzleMenuObject.GetComponent<PuzzleMenuGUI>();
+		currentPlayer = playerData.CurrentPlayer;
 	}
 
 	void OnGUI() {
@@ -29,10 +31,10 @@ public class LevelMenuGUI : MonoBehaviour {
 		int i = 0;
 		foreach(Level level in puzzleParser.allPuzzles.levels)
 		{
-			//GUI.enabled = currentPlayer.progress.Level.Count > i;
+			GUI.enabled = currentPlayer.progress.Level.Count > i;
 			if(GUI.Button (new Rect (10 + (130*i), 60 ,120,40), level.levelnum.ToString()))
 			{
-				puzzleMenuGUI.levelNum = i;
+				playerData.CurrentLevel = puzzleMenuGUI.levelNum = i;
 				MenuController.ChangeMenu(PuzzleMenuObject, this.gameObject);
 			}
 			i++;

@@ -46,11 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BoxBehaviour.cs" />
-     <Compile Include="Assets\ClueBehavior.cs" />
-     <Compile Include="Assets\DefeatScreenGUI.cs" />
-     <Compile Include="Assets\PuzzleBuilder.cs" />
-     <Compile Include="Assets\PuzzleWatcher.cs" />
+     <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ClueBehavior.cs" />
+     <Compile Include="Assets\Scripts\GUI\DefeatScreenGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\GameGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\LevelMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\MainMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\MenuController.cs" />
@@ -59,9 +58,11 @@
      <Compile Include="Assets\Scripts\GUI\PlayMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\VictoryScreenGUI.cs" />
      <Compile Include="Assets\Scripts\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\PuzzleBuilder.cs" />
      <Compile Include="Assets\Scripts\PuzzleParser.cs" />
-     <Compile Include="Assets\VictoryScreenGUI.cs" />
+     <Compile Include="Assets\Scripts\PuzzleWatcher.cs" />
      <None Include="Assets\XML\playerdata.xml" />
      <None Include="Assets\XML\puzzles.xml" />
   </ItemGroup>

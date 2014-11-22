@@ -16,17 +16,17 @@ public class MainMenuGUI : MonoBehaviour {
 	void OnGUI() {
 		GUI.Label (new Rect(50,50,200,30), "Current Player: " + currentPlayer.name);
 
-		if(GUI.Button (Play.rect, Play.title))
+		if(GUI.Button (Play.AnchoredRect(), Play.title))
 		{
 			MenuController.ChangeMenu(Play.menuObject, this.gameObject);
 		}
 
-		if(GUI.Button (Options.rect, Options.title))
+		if(GUI.Button (Options.AnchoredRect(), Options.title))
 		{
 			MenuController.ChangeMenu(Options.menuObject, this.gameObject);
 		}
 
-		if(GUI.Button (User.rect, User.title))
+		if(GUI.Button (User.AnchoredRect(), User.title))
 		{
 			MenuController.ChangeMenu (User.menuObject, this.gameObject);
 		}

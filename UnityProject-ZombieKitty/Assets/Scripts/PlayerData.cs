@@ -12,6 +12,7 @@ public class PlayerData : MonoBehaviour {
 
 	public Players playerData;
 	public Player CurrentPlayer;
+	public int CurrentLevel;
 	private string Data, _Location;
 	[SerializeField]
 	private string Filename;
@@ -136,7 +137,6 @@ public class Player
 		name = newName;
 		progress = new Progress();
 		progress.Level.Add(new LevelProgress());
-		progress.Level[0].puzzle.Add(new PuzzleData());
 		settings = new GameSettings();
 	}
 }
@@ -161,6 +161,11 @@ public class LevelProgress
 	{
 		puzzle = new List<PuzzleData>(); 
 	}
+	public LevelProgress(PuzzleData p)
+	{
+		puzzle = new List<PuzzleData>();
+		puzzle.Add(p);
+	}
 }
 
 public class PuzzleData
@@ -169,14 +174,14 @@ public class PuzzleData
 	public int highscore { get; set; }
 
 	[XmlElement("besttime")]
-	public Time besttime { get; set; }
+	public int besttime { get; set; }
 
 	[XmlElement("lives")]
 	public int lives { get; set; }
 
 	public PuzzleData()
 	{
-		highscore = lives = 0;
+		highscore = lives = besttime = 0;
 	}
 }
 
