@@ -12,8 +12,12 @@ public class BoxBehaviour : MonoBehaviour {
 	public string state = "hand";
 	public int mode = 1;
 
+	private PuzzleWatcher pw;
+
 	void Start()
 	{
+		pw = GameObject.Find ("PuzzleBuilder").GetComponent<PuzzleWatcher>();
+
 		switch (mode)
 		{
 		case 1:
@@ -55,6 +59,7 @@ public class BoxBehaviour : MonoBehaviour {
 
 		this.renderer.material = openBox;
 		this.renderer.material.color = openColor;
+		pw.solveCount++;
 		clickEvent = empty;
 	}
 	void highlight()

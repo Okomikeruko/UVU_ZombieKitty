@@ -137,6 +137,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &937286754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 937286756}
+  - 114: {fileID: 937286755}
+  m_Layer: 0
+  m_Name: VictoryScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &937286755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 937286754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e77f58c0288eb84686154930656dd35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart:
+    title: Restart
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 200
+      width: 120
+      height: 40
+    menuObject: {fileID: 0}
+  menu:
+    title: Main Menu
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 200
+      width: 120
+      height: 40
+    menuObject: {fileID: 0}
+  next:
+    title: Next
+    rect:
+      serializedVersion: 2
+      x: 680
+      y: 200
+      width: 120
+      height: 40
+    menuObject: {fileID: 0}
+--- !u!4 &937286756
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 937286754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &945652846
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +212,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 945652848}
   - 114: {fileID: 945652847}
+  - 114: {fileID: 945652849}
   m_Layer: 0
   m_Name: PuzzleBuilder
   m_TagString: Untagged
@@ -173,11 +240,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 945652846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.419775248, y: .461820126, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &945652849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945652846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ecff46a8fd49043af32bf1bbc9476f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VictoryScreen: {fileID: 937286754}
+  DefeatScreen: {fileID: 2110396008}
 --- !u!1 &1779620951
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,3 +342,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &2110396008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2110396010}
+  - 114: {fileID: 2110396009}
+  m_Layer: 0
+  m_Name: DefeatScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2110396009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110396008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9299f948552e53247b33f5fa65d7fb8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart:
+    title: Try Again
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 120
+      height: 120
+    menuObject: {fileID: 0}
+  menu:
+    title: Main Menu
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    menuObject: {fileID: 0}
+--- !u!4 &2110396010
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110396008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
