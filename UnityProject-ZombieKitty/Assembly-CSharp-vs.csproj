@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PauseScreenGUI.cs" />
+     <Compile Include="Assets\Scripts\AutoCrossOut.cs" />
      <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
      <Compile Include="Assets\Scripts\ClueBehavior.cs" />
      <Compile Include="Assets\Scripts\GUI\DefeatScreenGUI.cs" />
@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\GUI\MenuController.cs" />
      <Compile Include="Assets\Scripts\GUI\NewUserGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\OptionsMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\PauseScreenGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />

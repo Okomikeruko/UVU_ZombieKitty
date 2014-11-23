@@ -1,8 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\GameGUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AutoCrossOut.cs">
     <Files>
-      <File FileName="Assets\Scripts\GUI\GameGUI.cs" Line="27" Column="37" />
+      <File FileName="Assets\Scripts\ClueBehavior.cs" Line="27" Column="64" />
+      <File FileName="Assets\Scripts\BoxBehaviour.cs" Line="21" Column="3" />
+      <File FileName="Assets\Scripts\PuzzleWatcher.cs" Line="12" Column="34" />
+      <File FileName="Assets\Scripts\AutoCrossOut.cs" Line="117" Column="35" />
+      <File FileName="Assets\Scripts\PuzzleBuilder.cs" Line="34" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

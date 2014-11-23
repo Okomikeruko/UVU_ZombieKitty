@@ -9,8 +9,7 @@ public class PuzzleBuilder : MonoBehaviour {
 	public GameObject Cell, Clue;
 	private PuzzleWatcher pw;
 	private PlayerData playerData;
-
-	// Use this for initialization
+	
 	void Start () {
 		pw = this.gameObject.GetComponent<PuzzleWatcher>();
 		puzzle = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>().currentPuzzle;
@@ -32,7 +31,7 @@ public class PuzzleBuilder : MonoBehaviour {
 			}
 			foreach(int clue in p.rowClues[p.rows.Count - i].Reverse<int>())
 			{
-				MakeClue(clue, j, i);
+				MakeClue(clue, j, i, ClueType.row, i);
 				j--;
 			}
 			i--;
@@ -43,7 +42,7 @@ public class PuzzleBuilder : MonoBehaviour {
 			int l = 1;
 			foreach (int clue in clues.Reverse<int>())
 			{
-				MakeClue (clue, k, l + p.rows.Count);
+				MakeClue (clue, k, l + p.rows.Count, ClueType.column, k);
 				l++;
 			}
 			k--;
@@ -60,11 +59,13 @@ public class PuzzleBuilder : MonoBehaviour {
 		pw.puzzleCount++;
 	}
 
-	void MakeClue(int value, int x, int y)
+	void MakeClue(int value, int x, int y, ClueType t, int group)
 	{
 		GameObject c = Instantiate (Clue, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
 		ClueBehavior b = c.GetComponent<ClueBehavior>();
 		b.clueValue = value;
+		b.clueType = t;
+		b.clueGroup = group;
 	}
 
 	void CenterCamera()
