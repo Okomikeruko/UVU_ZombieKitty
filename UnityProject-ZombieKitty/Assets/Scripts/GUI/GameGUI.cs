@@ -19,8 +19,7 @@ public class GameGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
-		GUI.enabled = !puzzleWatcher.end;
-		GUI.enabled = !paused;
+		GUI.enabled = !puzzleWatcher.end && !paused;
 
 		if (GUI.Button(pause.rect, pause.content, pause.style))
 		{
@@ -46,7 +45,16 @@ public class GameGUI : MonoBehaviour {
 				ShotgunMode = false;
 				BasketMode = true;
 			}
-		}else{}
+		}else if(playerData.CurrentPlayer.settings.playmode == 0){
+			if(GUI.Button(shotgun.AnchoredRect(), shotgun.content, shotgun.style))
+			{
+				groupClick ("shotgun");
+			}
+			if(GUI.Button(basket.AnchoredRect(), basket.content, basket.style))
+			{
+				groupClick ("hand");
+			}
+		}
 
 
 		for (int i = 0; i < 4; i++)
@@ -58,5 +66,18 @@ public class GameGUI : MonoBehaviour {
 		}
 
 		GUI.Label (timer.AnchoredRect(), timer.content, timer.style);
+	}
+
+	void groupClick(string s)
+	{
+		GameObject[] cells = GameObject.FindGameObjectsWithTag("Cell");
+		foreach (GameObject cell in cells)
+		{
+			BoxBehaviour b = cell.GetComponent<BoxBehaviour>();
+			if(b.highlightPlane.activeSelf){
+				b.highlightEvent(s);
+				b.highlightPlane.SetActive(false);
+			}
+		}
 	}
 }

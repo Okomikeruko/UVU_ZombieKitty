@@ -8,11 +8,13 @@ public class PuzzleBuilder : MonoBehaviour {
 	public Puzzle puzzle;
 	public GameObject Cell, Clue;
 	private PuzzleWatcher pw;
+	private PlayerData playerData;
 
 	// Use this for initialization
 	void Start () {
 		pw = this.gameObject.GetComponent<PuzzleWatcher>();
 		puzzle = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>().currentPuzzle;
+		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
 		BuildPuzzle(puzzle);
 		CenterCamera();
 	}
@@ -54,6 +56,7 @@ public class PuzzleBuilder : MonoBehaviour {
 		BoxBehaviour b = c.GetComponent<BoxBehaviour>();
 		b.openColor = cell.getColor();
 		b.kitty = cell.isHealthy();
+		b.mode = playerData.CurrentPlayer.settings.playmode;
 		pw.puzzleCount++;
 	}
 

@@ -11,6 +11,7 @@ public class BoxBehaviour : MonoBehaviour {
 	public bool kitty;
 	public string state = "hand";
 	public int mode = 1, kittyScore = 50, zombieScore = 50;
+	public GameObject highlightPlane;
 
 	private PuzzleWatcher pw;
 	private GameGUI gameGUI;
@@ -27,11 +28,11 @@ public class BoxBehaviour : MonoBehaviour {
 			break;
 		case 0:
 			clickEvent = highlight;
+			watch = empty;
 			break;
 		default:
 			break;
 		}
-//		watch = empty;
 	}
 
 	void Update()
@@ -39,18 +40,28 @@ public class BoxBehaviour : MonoBehaviour {
 		watch();
 	}
 
+	void OnMouseDown()
+	{
+		pw.isHighlighting = !highlightPlane.activeSelf;
+	}
+
 	void OnMouseOver()
 	{
-		if(Input.GetMouseButton(0) && !gameGUI.paused)
+		if(Input.GetMouseButton(0) && !gameGUI.paused && !pw.end)
 			clickEvent();
 	}
 
 	void direct()
 	{
-		switch (state)
+		highlightEvent(state);
+	}
+
+	public void highlightEvent(string s)
+	{
+		switch (s)
 		{
 		case "hand":
-			if(kitty)
+			if (kitty)
 			{
 				pw.score += kittyScore;
 			}
@@ -61,7 +72,7 @@ public class BoxBehaviour : MonoBehaviour {
 			}
 			break;
 		case "shotgun":
-			if(kitty)
+			if (kitty)
 			{
 				pw.lives--;
 			}
@@ -73,7 +84,7 @@ public class BoxBehaviour : MonoBehaviour {
 		default:
 			break;
 		}
-
+		
 		this.renderer.material = openBox;
 		this.renderer.material.color = openColor;
 		pw.solveCount++;
@@ -88,10 +99,9 @@ public class BoxBehaviour : MonoBehaviour {
 		}
 	}
 
-
 	void highlight()
 	{
-	
+		highlightPlane.SetActive(pw.isHighlighting);
 	}
 
 	void empty (){}

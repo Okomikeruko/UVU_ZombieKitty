@@ -10,7 +10,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	public int puzzleCount { get; set; }
 	public int lives = 4, bites = 0, score = 0;
 	public float TimeRemaining = 301;
-	public bool end = false;
+	public bool end = false, isHighlighting = false;
 	public int levelNum;
 
 	public GameObject VictoryScreen, DefeatScreen;
@@ -79,10 +79,6 @@ public class PuzzleWatcher : MonoBehaviour {
 				}
 			}
 			playerData.SaveData();
-
-			Debug.Log ("Lives Remaining: " + lives + 
-			           "; Time Remaining: " + Mathf.FloorToInt(TimeRemaining) +
-					   "; Score: " + score);
 
 			VictoryScreen.SetActive(true);
 			stop ();

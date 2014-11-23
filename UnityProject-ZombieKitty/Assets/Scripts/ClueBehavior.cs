@@ -6,11 +6,8 @@ public class ClueBehavior : MonoBehaviour {
 	public Material[] clueMaterials;
 	public int clueValue;
 
-	private GameGUI gameGUI;
-
 	void Start () {
 		this.renderer.material = clueMaterials[clueValue];
-		gameGUI = GameObject.Find ("GameGUI").GetComponent<GameGUI>();
 	}
 
 	public void clearClues(bool makeClear) {
