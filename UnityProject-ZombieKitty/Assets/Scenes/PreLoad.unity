@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6139e9c94899e16409b835f7f961e724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentLevel: 0
   Filename: playerdata.xml
 --- !u!4 &1546835204
 Transform:
