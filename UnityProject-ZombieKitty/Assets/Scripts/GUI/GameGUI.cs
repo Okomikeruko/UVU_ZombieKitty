@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameGUI : MonoBehaviour {
 
-	public ButtonClass shotgun, basket, life, timer, pause;
+	public ButtonClass shotgun, basket, life, timer, pause, help, helpIcon;
 	public bool ShotgunMode = false, BasketMode = true, paused = false;
-	private bool[] lifeCounter = new bool[4] {true, true, true, true};
-	public int lifeCounterOffset;
+	private bool[] lifeCounter = new bool[4] {true, true, true, true},
+				   helpCounter = new bool[4] {true, true, true, true};
+	private int helpCount;
+	public int lifeCounterOffset, helpCounterOffset;
 	private PlayerData playerData;
 	private PuzzleWatcher puzzleWatcher;
 
@@ -14,7 +17,7 @@ public class GameGUI : MonoBehaviour {
 	{
 		playerData = GameObject.Find("PlayerData").GetComponent<PlayerData>();
 		puzzleWatcher = GameObject.Find("PuzzleBuilder").GetComponent<PuzzleWatcher>();
-
+		helpCount = helpCounter.Length;
 	}
 
 	void OnGUI()
@@ -31,6 +34,29 @@ public class GameGUI : MonoBehaviour {
 			{
 				clue.GetComponent<ClueBehavior>().clearClues(true);
 			}
+		}
+
+		if (GUI.Button(help.AnchoredRect(), help.content, help.style) && anyTrue (helpCounter))
+		{
+			GameObject[] cells = GameObject.FindGameObjectsWithTag("Cell");
+			List<GameObject> cellList = new List<GameObject>();
+			foreach(GameObject cell in cells)
+			{
+				if(!cell.GetComponent<BoxBehaviour>().isOpen)
+				{
+					cellList.Add(cell);
+				}
+			}
+			cellList[Random.Range (0, cellList.Count -1)].GetComponent<BoxBehaviour>().open();
+			helpCount--;
+		}
+
+		for (int i = 0; i < helpCounter.Length; i++)
+		{
+			helpCounter[i] = (helpCount > i);
+			Rect offset = helpIcon.AnchoredRect();
+			offset.y += i * helpCounterOffset;
+			GUI.Toggle (offset, helpCounter[i], helpIcon.content, helpIcon.style);
 		}
 
 		if (playerData.CurrentPlayer.settings.playmode == 1)
@@ -57,7 +83,7 @@ public class GameGUI : MonoBehaviour {
 		}
 
 
-		for (int i = 0; i < 4; i++)
+		for (int i = 0; i < lifeCounter.Length; i++)
 		{
 			lifeCounter[i] = (puzzleWatcher.lives > i);
 			Rect offset = life.AnchoredRect();
@@ -79,5 +105,15 @@ public class GameGUI : MonoBehaviour {
 				b.highlightPlane.SetActive(false);
 			}
 		}
+	}
+
+	bool anyTrue(bool[] a)
+	{
+		bool output = false;
+		foreach (bool item in a){
+			if (item)
+				output = true;
+		}
+		return output;
 	}
 }

@@ -8,7 +8,7 @@ public class BoxBehaviour : MonoBehaviour {
 
 	public Material openBox;
 	public Color openColor;
-	public bool kitty;
+	public bool kitty, isOpen = false;
 	public string state = "hand";
 	public int mode = 1, kittyScore = 50, zombieScore = 50;
 	public GameObject highlightPlane;
@@ -84,7 +84,13 @@ public class BoxBehaviour : MonoBehaviour {
 		default:
 			break;
 		}
-		
+
+		open ();
+	}
+
+	public void open()
+	{
+		isOpen = true;
 		this.renderer.material = openBox;
 		this.renderer.material.color = openColor;
 		pw.solveCount++;
