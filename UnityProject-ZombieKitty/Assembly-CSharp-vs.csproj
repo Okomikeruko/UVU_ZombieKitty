@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\PuzzleBuilder.cs" />
      <Compile Include="Assets\Scripts\PuzzleParser.cs" />
      <Compile Include="Assets\Scripts\PuzzleWatcher.cs" />
+     <Compile Include="Assets\iOSbehaviour.cs" />
      <None Include="Assets\XML\playerdata.xml" />
      <None Include="Assets\XML\puzzles.xml" />
   </ItemGroup>
