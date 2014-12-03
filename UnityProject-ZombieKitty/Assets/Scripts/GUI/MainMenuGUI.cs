@@ -28,7 +28,7 @@ public class MainMenuGUI : MonoBehaviour {
 		{
 			MenuController.ChangeMenu (User.menuObject, this.gameObject);
 		}
-		Player.style.fontSize = Mathf.RoundToInt(18.0F * Screen.height / 458.0F);
+		Player.style.fontSize = Mathf.RoundToInt(24.0F * Screen.height / 458.0F);
 		GUI.Label (Player.AnchoredRect(), currentPlayer.name, Player.style);
 	}
 }
