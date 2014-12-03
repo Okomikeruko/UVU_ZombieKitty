@@ -40,6 +40,11 @@ public class OptionsMenuGUI : MonoBehaviour {
 			sliderBar,
 			sliderThumb);
 
-		settings.playmode = GUI.SelectionGrid(Mode.AnchoredRect(), settings.playmode, modeTextures, modeTextures.Length, Mode.style);
+		settings.playmode = GUI.SelectionGrid(
+			Mode.AnchoredRect(), 
+			settings.playmode, 
+			modeTextures, 
+			modeTextures.Length, 
+			Mode.style);
 	}
 }

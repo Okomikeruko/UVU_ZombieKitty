@@ -2,39 +2,34 @@
 using System.Collections;
 using UnityEditor;
 
-public class PlayerMenuGUI : MonoBehaviour {
-
+public class PlayerDeleteGUI : MonoBehaviour {
+	
 	private PlayerData playerData;
+	private PlayerMenuGUI playerMenuGUI;
 	private int PlayerCount = 6,
-				down = 3;
-	public int guiDepth = 2;
-	[SerializeField]
-	public ButtonClass MainMenu, player, delete;
-	public GameObject newPlayer;
-	private TouchScreenKeyboard keyboard;
-
+	down = 3;
+	public int guiDepth = 1;
+	
 	void Start () {
 		playerData = GameObject.Find ("PlayerData").GetComponent <PlayerData>();
+		playerMenuGUI = this.gameObject.GetComponent<PlayerMenuGUI>();
 	}
 	
 	void OnGUI() {
-		
 		GUI.depth = guiDepth;
-		player.style.fontSize = Mathf.RoundToInt(24.0F * Screen.height / 458.0F);
 		for ( int i = 0; i < PlayerCount; i++ )
 		{
-			Rect cur = player.AnchoredRect();
+			Rect cur = playerMenuGUI.player.AnchoredRect();
 			cur.y += cur.height * (i % down);
 			cur.x += cur.width * (i / down);
-			/*
-			Rect del = delete.AnchoredRect();
+			
+			Rect del = playerMenuGUI.delete.AnchoredRect();
 			del.y += cur.height * (i % down);
 			del.x += cur.width * (i / down);
-*/
+			
 			if(playerData.playerData != null && i < playerData.playerData.players.Count)
 			{
-				GUI.depth = 0;
-/*				if(GUI.Button (del, delete.content, delete.style )){
+				if(GUI.Button (del, playerMenuGUI.delete.content, playerMenuGUI.delete.style )){
 					if (!playerData.playerData.players[i].isCurrent)
 					{
 						if(EditorUtility.DisplayDialog (
@@ -53,18 +48,17 @@ public class PlayerMenuGUI : MonoBehaviour {
 							"You cannot delete the current player.",
 							"OK")){}
 					}
-
+					
 				}
-				GUI.depth = 1;
-*/
+/*
 				if(GUI.Toggle (cur, playerData.playerData.players[i].isCurrent, playerData.playerData.players[i].name, player.style))
 				{
 					playerData.playerData.setCurrentPlayer(playerData.playerData.players[i].name);
 					playerData.CurrentPlayer = playerData.playerData.players[i];
 					playerData.SaveData();
 				}
-
-			}
+				
+			*/}/*
 			else
 			{
 				if(GUI.Button(cur, "New Player", player.style))
@@ -77,7 +71,7 @@ public class PlayerMenuGUI : MonoBehaviour {
 		GUI.enabled = true;
 		if(GUI.Button (MainMenu.AnchoredRect(), MainMenu.content, MainMenu.style))
 		{
-			MenuController.ChangeMenu(MainMenu.menuObject, this.gameObject);
+			MenuController.ChangeMenu(MainMenu.menuObject, this.gameObject);*/
 		}
 	}
 }
