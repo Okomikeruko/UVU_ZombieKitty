@@ -30,6 +30,7 @@ public class ButtonClass {
 	[SerializeField]
 	public Anchor anchorPoint;
 	public Rect rect;
+	public float scale;
 	public GUIContent content;
 	public GUIStyle style;
 	public GameObject menuObject;
@@ -37,37 +38,46 @@ public class ButtonClass {
 	public Rect AnchoredRect()
 	{
 		Rect output = rect;
+		output.width *= scale * (Screen.width / 814.0F);
+		output.height *= scale * (Screen.height / 458.0F);
+
 		switch (anchorPoint)
 		{
 		case Anchor.TopLeft:
+			output.x = (Screen.width * rect.x);
+			output.y = (Screen.height * rect.y);
 			break;
 		case Anchor.TopCenter:
-			output.x = (Screen.width / 2) + rect.x;
+			output.x = ((Screen.width - output.width )/ 2) + (Screen.width * rect.x);
+			output.y = (Screen.height * rect.y);
 			break;
 		case Anchor.TopRight:
-			output.x = Screen.width + rect.x;
+			output.x = (Screen.width - output.width ) + (Screen.width * rect.x);
+			output.y = (Screen.height * rect.y);
 			break;
 		case Anchor.MiddleLeft:
-			output.y = (Screen.height / 2) + rect.y;
+			output.x = (Screen.width * rect.x);
+			output.y = (Screen.height / 2) + (Screen.height * rect.y);
 			break;
 		case Anchor.MiddleCenter:
-			output.x = (Screen.width / 2) + rect.x;
-			output.y = (Screen.height / 2) + rect.y;
+			output.x = ((Screen.width - output.width )/ 2) + (Screen.width * rect.x);
+			output.y = (Screen.height / 2) + (Screen.height * rect.y);
 			break;
 		case Anchor.MiddleRight:
-			output.x = Screen.width + rect.x;
-			output.y = (Screen.height / 2) + rect.y;
+			output.x = (Screen.width - output.width ) + (Screen.width * rect.x);
+			output.y = (Screen.height / 2) + (Screen.height * rect.y);
 			break;
 		case Anchor.BottomLeft:
-			output.y = Screen.height + rect.y;
+			output.x = (Screen.width * rect.x);
+			output.y = (Screen.height - output.height) + (Screen.height * rect.y);
 			break;
 		case Anchor.BottomCenter:
-			output.x = (Screen.width / 2) + rect.x;
-			output.y = Screen.height + rect.y;
+			output.x = ((Screen.width - output.width )/ 2) + (Screen.width * rect.x);
+			output.y = (Screen.height - output.height) + (Screen.height * rect.y);
 			break;
 		case Anchor.BottomRight:
-			output.x = Screen.width + rect.x;
-			output.y = Screen.height + rect.y;
+			output.x = (Screen.width - output.width ) + (Screen.width * rect.x);
+			output.y = (Screen.height - output.height) + (Screen.height * rect.y);
 			break;
 		default:
 			break;

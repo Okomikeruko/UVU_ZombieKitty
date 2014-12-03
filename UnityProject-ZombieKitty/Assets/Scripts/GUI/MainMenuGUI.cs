@@ -4,7 +4,7 @@ using System.Collections;
 public class MainMenuGUI : MonoBehaviour {
 
 	[SerializeField]
-	public ButtonClass Play, Options, User;
+	public ButtonClass Play, Options, User, Player;
 	private Player currentPlayer;
 
 	void OnEnable(){
@@ -14,23 +14,22 @@ public class MainMenuGUI : MonoBehaviour {
 	}
 
 	void OnGUI() {
-		GUI.Label (new Rect(50,50,200,30), "Current Player: " + currentPlayer.name);
-
-		if(GUI.Button (Play.AnchoredRect(), Play.title))
+		if(GUI.Button (Play.AnchoredRect(), Play.content, Play.style))
 		{
 			MenuController.ChangeMenu(Play.menuObject, this.gameObject);
 		}
 
-		if(GUI.Button (Options.AnchoredRect(), Options.title))
+		if(GUI.Button (Options.AnchoredRect(), Options.content, Options.style))
 		{
 			MenuController.ChangeMenu(Options.menuObject, this.gameObject);
 		}
 
-		if(GUI.Button (User.AnchoredRect(), User.title))
+		if(GUI.Button (User.AnchoredRect(), User.content, User.style))
 		{
 			MenuController.ChangeMenu (User.menuObject, this.gameObject);
 		}
-
+		Player.style.fontSize = Mathf.RoundToInt(18.0F * Screen.height / 458.0F);
+		GUI.Label (Player.AnchoredRect(), currentPlayer.name, Player.style);
 	}
 }
 
