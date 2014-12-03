@@ -4,28 +4,42 @@ using System.Collections;
 public class OptionsMenuGUI : MonoBehaviour {
 	
 	[SerializeField]
-	public ButtonClass MainMenu;
+	public ButtonClass MainMenu, SFX, Music, Mode;
 	private GameSettings settings;
-	private string[] modes = new string[] {"Highlight", "Direct"};
+	public Texture[] modeTextures;
+	public GUIStyle sliderBar, sliderThumb;
 
 	void OnEnable() {
 		settings = GameObject.Find ("PlayerData").
 			GetComponent<PlayerData>().
 				CurrentPlayer.
-				settings;
+					settings;
 	}
 
 	void OnGUI() {
-		if(GUI.Button (MainMenu.rect, MainMenu.title))
+		sliderThumb.overflow.left = sliderThumb.overflow.right = Mathf.RoundToInt(18.0F * (Screen.width / 814.0F));
+
+		if(GUI.Button (MainMenu.AnchoredRect(), MainMenu.content, MainMenu.style))
 		{
 			GameObject.Find ("PlayerData").GetComponent<PlayerData>().SaveData();
 			MenuController.ChangeMenu(MainMenu.menuObject, this.gameObject);
 		}
 
-		settings.musicVolume = GUI.HorizontalSlider(new Rect (25,25,150,30), settings.musicVolume, 0.0f, 1.0f);
-		GUI.Label(new Rect(25, 50, 150, 30), "Music Volume: " + Mathf.RoundToInt(settings.musicVolume * 100));
-		settings.sfxVolume = GUI.HorizontalSlider(new Rect (25,75,150,30), settings.sfxVolume, 0.0f, 1.0f);
-		GUI.Label(new Rect(25, 100, 150, 30), "SFX Volume: " + Mathf.RoundToInt(settings.sfxVolume * 100));
-		settings.playmode = GUILayout.SelectionGrid(settings.playmode, modes, modes.Length);
+		settings.musicVolume = GUI.HorizontalSlider(
+			Music.AnchoredRect(), 
+			settings.musicVolume, 
+			0.0f, 1.0f,
+			sliderBar,
+			sliderThumb);
+
+
+		settings.sfxVolume = GUI.HorizontalSlider(
+			SFX.AnchoredRect(), 
+			settings.sfxVolume, 
+			0.0f, 1.0f,
+			sliderBar,
+			sliderThumb);
+
+		settings.playmode = GUI.SelectionGrid(Mode.AnchoredRect(), settings.playmode, modeTextures, modeTextures.Length, Mode.style);
 	}
 }
