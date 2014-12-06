@@ -8,7 +8,7 @@ public class NewUserGUI : MonoBehaviour {
 	private PlayerData playerData;
 
 	[SerializeField]
-	public ButtonClass Submit, Name;
+	public ButtonClass Submit, Name, Back;
 
 	void Start()
 	{
@@ -24,11 +24,17 @@ public class NewUserGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
-		newName = GUI.TextField (Name.AnchoredRect(), newName, 25);
+		GUI.skin.settings.cursorColor = Color.black;
+		newName = GUI.TextField (Name.AnchoredRect(), newName, 25, Name.style);
+
+		if(GUI.Button (Back.AnchoredRect(), Back.content, Back.style))
+		{
+			MenuController.ChangeMenu (Back.menuObject, this.gameObject);
+		}
 
 		GUI.enabled = newName.Length > 2;
 
-		if(GUI.Button (Submit.AnchoredRect (), Submit.title))
+		if(GUI.Button (Submit.AnchoredRect (), Submit.content, Submit.style))
 		{
 			Player newPlayer = new Player(newName);
 			playerData.playerData.players.Add(newPlayer);
