@@ -2215,7 +2215,6 @@
 				<cell>false</cell>
 			</row>
 		</puzzle>
-
 	</level>
 	<level levelnum="4">
 		<puzzle name="Mad Cow" puzzlenum="1">
@@ -12680,6 +12679,5310 @@
 				<cell color="rgb(253, 152, 0)">true</cell>
 				<cell color="rgb(253, 152, 0)">true</cell>
 				<cell color="rgb(253, 152, 0)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Sundail" puzzlenum="4">
+			<row>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(120, 129, 147)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Gnome" puzzlenum="5">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Koi Pond" puzzlenum="6">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Potted Mums" puzzlenum="7">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Butterfly" puzzlenum="8">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 0, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Dandelions" puzzlenum="9">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Tip Toe Tulips" puzzlenum="10">
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell color="rgb(163, 46, 18)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Zen Garden" puzzlenum="11">
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell color="rgb(128, 128, 128)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell color="rgb(204, 132, 84)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Octopus Garden" puzzlenum="12">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+				<cell color="rgb(0, 120, 114)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Morning Glories" puzzlenum="13">
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(126, 68, 188)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(81, 194, 1)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Rose" puzzlenum="14">
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell color="rgb(248, 99, 203)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+		</puzzle>
+		<puzzle name="Gardner" puzzlenum="14">
+			<row>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+				<cell color="rgb(246, 235, 32)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(255, 255, 255)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(246, 225, 32)">true</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell color="rgb(167, 139, 0)">true</cell>
+				<cell color="rgb(244, 250, 159)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell color="rgb(131, 175, 219)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(245, 212, 180)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(191, 106, 31)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(201, 17, 17)">true</cell>
+				<cell color="rgb(255, 128, 0)">true</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(40, 98, 185)">true</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+				<cell>false</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell>false</cell>
+			</row>
+			<row>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
+				<cell color="rgb(28, 142, 13)">true</cell>
 			</row>
 		</puzzle>
 
