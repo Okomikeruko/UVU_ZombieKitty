@@ -10,7 +10,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	public int puzzleCount { get; set; }
 	public int lives = 4, bites = 0, score = 0;
 	public float TimeRemaining = 301;
-	public bool end = false, isHighlighting = false;
+	public bool end = false, isOver = false, isHighlighting = false;
 	public int levelNum;
 
 	public GameObject VictoryScreen, DefeatScreen, GameGUIScreen;
@@ -18,7 +18,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	private GameGUI gameGUI;
 	private PlayerData playerData;
 	private PuzzleParser puzzleParser;
-
+	private Rect OverRect;
 
 	void Awake()
 	{
@@ -27,9 +27,12 @@ public class PuzzleWatcher : MonoBehaviour {
 		watcher += victory;
 		watcher += defeat;
 		watcher += countdown;
+		watcher += overDetect;
 	}
 	void Start()
 	{
+		OverRect = new Rect(Screen.width*0.2f,Screen.height*0.1f, Screen.width*0.6f, Screen.height*0.8f);
+
 		gameGUI = GameObject.Find ("GameGUI").GetComponent<GameGUI>();
 		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
 		puzzleParser = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>();
@@ -100,6 +103,11 @@ public class PuzzleWatcher : MonoBehaviour {
 		watcher = empty;
 		GameGUIScreen.SetActive (false);
 		end = true;
+	}
+
+	void overDetect()
+	{
+		isOver = OverRect.Contains(Input.mousePosition);
 	}
 
 	void empty () {}

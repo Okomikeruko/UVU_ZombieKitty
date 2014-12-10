@@ -47,7 +47,7 @@ public class BoxBehaviour : MonoBehaviour {
 
 	void OnMouseOver()
 	{
-		if(Input.GetMouseButton(0) && !gameGUI.paused && !pw.end)
+		if(Input.GetMouseButton(0) && !gameGUI.paused && !pw.end && pw.isOver)
 			clickEvent();
 	}
 
