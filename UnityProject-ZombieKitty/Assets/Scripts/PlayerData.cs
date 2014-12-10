@@ -94,6 +94,13 @@ public class PlayerData : MonoBehaviour {
 		writer.Write (saveData);
 		writer.Close ();
 	}
+
+	public void ResetLevels()
+	{
+		CurrentPlayer.progress = new Progress();
+		CurrentPlayer.progress.Level.Add(new LevelProgress());
+		SaveData();
+	}
 }
 
 [XmlRoot("root")]

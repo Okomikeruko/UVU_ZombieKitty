@@ -13,7 +13,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	public bool end = false, isHighlighting = false;
 	public int levelNum;
 
-	public GameObject VictoryScreen, DefeatScreen;
+	public GameObject VictoryScreen, DefeatScreen, GameGUIScreen;
 
 	private GameGUI gameGUI;
 	private PlayerData playerData;
@@ -97,6 +97,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	void stop()
 	{
 		watcher = empty;
+		GameGUIScreen.SetActive (false);
 		end = true;
 	}
 

@@ -348,14 +348,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BeginnerLevels:
     title: 
-    anchorPoint: 0
+    anchorPoint: 5
     rect:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    scale: 0
+      x: -.119999997
+      y: -.209999993
+      width: 358
+      height: 145
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -363,13 +363,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: d484e72f63bc0374aa95bbe9a9fba024, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: fddfe73a517570d42a17b55f7f7f7938, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -422,14 +422,14 @@ MonoBehaviour:
     menuObject: {fileID: 0}
   IntermediateLevels:
     title: 
-    anchorPoint: 0
+    anchorPoint: 5
     rect:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    scale: 0
+      x: -.119999997
+      y: -.0549999997
+      width: 356
+      height: 143
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -437,13 +437,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 09b661cee9f6e2f4cb275a7ad858f3fe, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 67875eceeac5b4f4da451e321feb466a, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -496,14 +496,14 @@ MonoBehaviour:
     menuObject: {fileID: 0}
   AdvancedLevels:
     title: 
-    anchorPoint: 0
+    anchorPoint: 5
     rect:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    scale: 0
+      x: -.119999997
+      y: .100000001
+      width: 356
+      height: 146
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -511,13 +511,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 06a2a41f18a09ad4e9f6411c55378e6a, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 613ab6cfd03d26a40bb588788d55a18d, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}

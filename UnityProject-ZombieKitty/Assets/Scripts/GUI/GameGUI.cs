@@ -22,9 +22,10 @@ public class GameGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
+		GUI.depth = 5;
 		GUI.enabled = !puzzleWatcher.end && !paused;
 
-		if (GUI.Button(pause.rect, pause.content, pause.style))
+		if (GUI.Button(pause.AnchoredRect (), pause.content, pause.style))
 		{
 			paused = true;
 			Time.timeScale = 0;

@@ -56,6 +56,29 @@ public class PuzzleParser : MonoBehaviour {
 		r.Close();
 		Data = info;
 	}
+
+	public Puzzle getNextPuzzle(Puzzle p)
+	{
+		Level currentLevel = null;
+		foreach (Level level in allPuzzles.levels){
+			foreach (Puzzle puzzle in level.puzzles){
+				if (puzzle == p){
+					currentLevel = level;
+				}
+			}
+		}
+		
+		if (p.puzzlenum == currentLevel.puzzles.Count){
+			if(currentLevel.levelnum != allPuzzles.levels.Count){
+				return allPuzzles.levels[currentLevel.levelnum].puzzles[0];
+			}else{
+				return p;
+			}
+		}else{
+			return currentLevel.puzzles[p.puzzlenum];
+		}
+	}
+
 }
 
 [XmlRoot("root")]

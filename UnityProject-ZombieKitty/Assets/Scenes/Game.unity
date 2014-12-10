@@ -146,6 +146,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 937286756}
   - 114: {fileID: 937286755}
+  - 131: {fileID: 937286757}
   m_Layer: 0
   m_Name: VictoryScreen
   m_TagString: Untagged
@@ -165,14 +166,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restart:
-    title: Restart
+    title: 
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -190
-      y: -20
-      width: 120
-      height: 40
+      x: -.284999996
+      y: 0
+      width: 435
+      height: 291
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -180,13 +182,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 4546a17fdf309d64294602e19d7e1e9e, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 5ea58d4d5d3007f4086e4fd0e09ed729, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -238,14 +240,15 @@ MonoBehaviour:
       m_StretchHeight: 0
     menuObject: {fileID: 0}
   menu:
-    title: Main Menu
+    title: 
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -60
-      y: -20
-      width: 120
-      height: 40
+      x: 0
+      y: 0
+      width: 435
+      height: 291
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -253,13 +256,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 167207988ab177640b9360d7affad094, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: b34222705116ad9418bbf68d44763a76, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -311,14 +314,15 @@ MonoBehaviour:
       m_StretchHeight: 0
     menuObject: {fileID: 0}
   next:
-    title: Next
+    title: 
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: 70
-      y: -20
-      width: 120
-      height: 40
+      x: .284999996
+      y: 0
+      width: 435
+      height: 291
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -326,13 +330,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: bb35f702ed5f26044b6f59746e7d63f2, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 5b25935caabda6b449428519533d5cf1, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -390,11 +394,30 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 937286754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!131 &937286757
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 937286754}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 99510f67826e526478a9bd474ef74645, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
 --- !u!1 &945652846
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +481,7 @@ MonoBehaviour:
   levelNum: 0
   VictoryScreen: {fileID: 937286754}
   DefeatScreen: {fileID: 2110396008}
+  GameGUIScreen: {fileID: 1926486933}
 --- !u!114 &945652850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,10 +537,11 @@ MonoBehaviour:
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -30
-      y: -105
-      width: 60
-      height: 60
+      x: 0
+      y: -.170000002
+      width: 85
+      height: 81
+    scale: .800000012
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -586,10 +611,11 @@ MonoBehaviour:
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: 15
-      y: -55
-      width: 120
-      height: 110
+      x: .0599999987
+      y: -.057
+      width: 223
+      height: 182
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -659,10 +685,11 @@ MonoBehaviour:
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -120
-      y: -48.7000008
-      width: 100
-      height: 102
+      x: -.0799999982
+      y: -.0450000018
+      width: 153
+      height: 167
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -732,10 +759,11 @@ MonoBehaviour:
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -150
-      y: -80
-      width: 300
-      height: 160
+      x: 0
+      y: -.100000001
+      width: 501
+      height: 276
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -916,10 +944,11 @@ MonoBehaviour:
     anchorPoint: 6
     rect:
       serializedVersion: 2
-      x: 15
-      y: -130
-      width: 130
-      height: 120
+      x: -0
+      y: 0
+      width: 307
+      height: 278
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -989,10 +1018,11 @@ MonoBehaviour:
     anchorPoint: 8
     rect:
       serializedVersion: 2
-      x: -145
-      y: -150
-      width: 130
-      height: 140
+      x: 0
+      y: 0
+      width: 276
+      height: 308
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1062,10 +1092,11 @@ MonoBehaviour:
     anchorPoint: 3
     rect:
       serializedVersion: 2
-      x: 20
-      y: -100
-      width: 50
-      height: 50
+      x: .0199999996
+      y: -.239999995
+      width: 1024
+      height: 1024
+    scale: .0500000007
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1135,12 +1166,13 @@ MonoBehaviour:
     anchorPoint: 1
     rect:
       serializedVersion: 2
-      x: -60
-      y: 25
+      x: 0
+      y: .0599999987
       width: 120
       height: 40
+    scale: .5
     content:
-      m_Text: 2:04
+      m_Text: 4:49
       m_Image: {fileID: 0}
       m_Tooltip: 
     style:
@@ -1208,10 +1240,11 @@ MonoBehaviour:
     anchorPoint: 0
     rect:
       serializedVersion: 2
-      x: 10
-      y: 10
-      width: 60
-      height: 60
+      x: 0
+      y: 0
+      width: 85
+      height: 81
+    scale: 1
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1281,10 +1314,11 @@ MonoBehaviour:
     anchorPoint: 2
     rect:
       serializedVersion: 2
-      x: -75
-      y: 5
-      width: 70
-      height: 70
+      x: 0
+      y: 0
+      width: 155
+      height: 179
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1354,10 +1388,11 @@ MonoBehaviour:
     anchorPoint: 5
     rect:
       serializedVersion: 2
-      x: -60
-      y: -100
-      width: 40
-      height: 40
+      x: -.0199999996
+      y: -.25
+      width: 155
+      height: 179
+    scale: .289999992
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1448,6 +1483,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2110396010}
   - 114: {fileID: 2110396009}
+  - 131: {fileID: 2110396011}
   m_Layer: 0
   m_Name: DefeatScreen
   m_TagString: Untagged
@@ -1467,14 +1503,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restart:
-    title: Try Again
+    title: 
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -125
-      y: -20
-      width: 120
-      height: 40
+      x: -.159999996
+      y: -.0500000007
+      width: 435
+      height: 291
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1482,13 +1519,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 4546a17fdf309d64294602e19d7e1e9e, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 5ea58d4d5d3007f4086e4fd0e09ed729, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -1540,14 +1577,15 @@ MonoBehaviour:
       m_StretchHeight: 0
     menuObject: {fileID: 0}
   menu:
-    title: Main Menu
+    title: 
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: 5
-      y: -20
-      width: 120
-      height: 40
+      x: .159999996
+      y: -.0500000007
+      width: 435
+      height: 291
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -1555,13 +1593,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 167207988ab177640b9360d7affad094, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: b34222705116ad9418bbf68d44763a76, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -1619,8 +1657,27 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110396008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!131 &2110396011
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110396008}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 3fd551416c718984ebc9bfb05578e173, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0

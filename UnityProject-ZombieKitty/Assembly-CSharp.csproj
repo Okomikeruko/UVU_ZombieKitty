@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerDeleteGUI.cs" />
      <Compile Include="Assets\Scripts\AutoCrossOut.cs" />
      <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
      <Compile Include="Assets\Scripts\ClueBehavior.cs" />
@@ -63,10 +62,11 @@
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\VictoryScreenGUI.cs" />
      <Compile Include="Assets\Scripts\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\PlayerDeleteGUI.cs" />
      <Compile Include="Assets\Scripts\PuzzleBuilder.cs" />
      <Compile Include="Assets\Scripts\PuzzleParser.cs" />
      <Compile Include="Assets\Scripts\PuzzleWatcher.cs" />
-     <Compile Include="Assets\iOSbehaviour.cs" />
+     <Compile Include="Assets\Scripts\iOSbehaviour.cs" />
      <None Include="Assets\XML\playerdata.xml" />
      <None Include="Assets\XML\puzzles.xml" />
   </ItemGroup>

@@ -7,11 +7,11 @@ public class DefeatScreenGUI : MonoBehaviour {
 
 	void OnGUI()
 	{
-		if(GUI.Button (restart.AnchoredRect(), restart.title)){
+		if(GUI.Button (restart.AnchoredRect(), restart.content, restart.style)){
 			Application.LoadLevel(Application.loadedLevel);
 		}
 		
-		if(GUI.Button (menu.AnchoredRect(), menu.title)){
+		if(GUI.Button (menu.AnchoredRect(), menu.content, menu.style)){
 			Application.LoadLevel ("Menu");
 		}
 	}
