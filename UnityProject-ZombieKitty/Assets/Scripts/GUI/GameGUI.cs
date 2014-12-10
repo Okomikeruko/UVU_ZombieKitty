@@ -56,7 +56,7 @@ public class GameGUI : MonoBehaviour {
 		{
 			helpCounter[i] = (helpCount > i);
 			Rect offset = helpIcon.AnchoredRect();
-			offset.y += i * helpCounterOffset;
+			offset.x += i * helpCounterOffset;
 			GUI.Toggle (offset, helpCounter[i], helpIcon.content, helpIcon.style);
 		}
 
@@ -88,7 +88,7 @@ public class GameGUI : MonoBehaviour {
 		{
 			lifeCounter[i] = (puzzleWatcher.lives > i);
 			Rect offset = life.AnchoredRect();
-			offset.y += i * lifeCounterOffset;
+			offset.x += i * lifeCounterOffset;
 			GUI.Toggle (offset, lifeCounter[i], life.content, life.style);
 		}
 

@@ -28,10 +28,15 @@ public class PlayMenuGUI : MonoBehaviour {
 					)
 				{
 					playerData.ResetLevels();
+					puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[0].puzzles[0];
+					Application.LoadLevel("Game");
 				}
 			}
-			puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[0].puzzles[0];
-			Application.LoadLevel("Game");
+			else
+			{
+				puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[0].puzzles[0];
+				Application.LoadLevel("Game");
+			}
 		}
 		GUI.enabled = !noob;
 		if(GUI.Button (Resume.AnchoredRect(), Resume.content, Resume.style))
