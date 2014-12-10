@@ -76,6 +76,7 @@ public class PuzzleWatcher : MonoBehaviour {
 				if (currentPlayer.progress.Level[levelNum].puzzle.Count == puzzleParser.allPuzzles.levels[levelNum].puzzles.Count)
 				{
 					currentPlayer.progress.Level.Add (new LevelProgress());
+					playerData.CurrentLevel++;
 				}
 			}
 			playerData.SaveData();

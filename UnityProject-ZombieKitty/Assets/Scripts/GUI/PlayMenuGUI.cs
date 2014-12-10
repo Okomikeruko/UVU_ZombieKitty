@@ -15,27 +15,46 @@ public class PlayMenuGUI : MonoBehaviour {
 	}
 	
 	void OnGUI(){
+		bool noob = playerData.CurrentPlayer.progress.Level.Count <= 1 && playerData.CurrentPlayer.progress.Level[0].puzzle.Count <= 0;
 		if(GUI.Button (NewGame.AnchoredRect(), NewGame.content, NewGame.style))
 		{
-			if(EditorUtility.DisplayDialog(
-				"Warning!",
-				"This will erase ALL your progress! This cannot be undone!",
-				"Confirm",
-				"Cancel")
-				)
+			if (!noob)
 			{
-				playerData.ResetLevels();
+				if(EditorUtility.DisplayDialog(
+					"Warning!",
+					"This will erase ALL your progress! This cannot be undone!",
+					"Confirm",
+					"Cancel")
+					)
+				{
+					playerData.ResetLevels();
+				}
 			}
 			puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[0].puzzles[0];
 			Application.LoadLevel("Game");
 		}
+		GUI.enabled = !noob;
 		if(GUI.Button (Resume.AnchoredRect(), Resume.content, Resume.style))
 		{
-			int l = playerData.CurrentPlayer.progress.Level.Count - 1;
-			int p = playerData.CurrentPlayer.progress.Level[l].puzzle.Count;
-			puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[l].puzzles[p];
+			if (puzzleParser.currentPuzzle == null){
+				int l = playerData.CurrentPlayer.progress.Level.Count;
+				l = (l > 0) ? l - 1 : l;
+				int p = playerData.CurrentPlayer.progress.Level[l].puzzle.Count;
+				if (p == 0)
+				{
+					l--;
+					p = playerData.CurrentPlayer.progress.Level[l].puzzle.Count - 1;
+				}
+				else
+				{
+					p--;
+				}
+				puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[l].puzzles[p];
+				puzzleParser.currentPuzzle = puzzleParser.getNextPuzzle(puzzleParser.currentPuzzle);
+			}
 			Application.LoadLevel("Game");
 		}
+		GUI.enabled = true;
 		if(GUI.Button (Back.AnchoredRect(), Back.content, Back.style))
 		{
 			MenuController.ChangeMenu(Back.menuObject, this.gameObject);
