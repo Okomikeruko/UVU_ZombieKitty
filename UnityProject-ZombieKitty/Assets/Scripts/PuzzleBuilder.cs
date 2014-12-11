@@ -3,10 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
+
 public class PuzzleBuilder : MonoBehaviour {
 
 	public Puzzle puzzle;
-	public GameObject Cell, Clue;
+	public GameObject Cell, Clue, Grid, ClueGrid;
 	private PuzzleWatcher pw;
 	private PlayerData playerData;
 	
@@ -47,6 +48,25 @@ public class PuzzleBuilder : MonoBehaviour {
 			}
 			k--;
 		}
+		Vector2 gridCount = new Vector2(p.rows[0].cells.Count, p.rows.Count);
+		gridCount /= 5;
+
+		for (int m = 0; m < gridCount.y; m++)
+		{
+			for (int n = 0; n > -gridCount.x; n--)
+			{
+				MakeGrid ((n*5)-2, (m*5)+3, gridCount, new Vector2(Mathf.Abs (n), m));
+			}
+		}
+
+		for (int o = 0; o < gridCount.y; o++)
+		{
+			MakeClueGrid (0, o, (o*5)+3);
+		}
+		for (int o = 0; o > -gridCount.x; o--)
+		{
+			MakeClueGrid (1, o, (o*5)-2);
+		}
 	}
 
 	void MakeCell(Cell cell, int x, int y)
@@ -68,6 +88,51 @@ public class PuzzleBuilder : MonoBehaviour {
 		b.clueGroup = group;
 	}
 
+	void MakeGrid (int x, int y, Vector2 gridCounter, Vector2 gridIndex)
+	{
+		GameObject g = Instantiate (Grid, new Vector3(x,y,0), Quaternion.identity) as GameObject;
+		foreach (GameObject c in GameObject.FindGameObjectsWithTag("Cell")){
+			if (Mathf.Abs (c.transform.position.x - g.transform.position.x) < 3 && Mathf.Abs (c.transform.position.y - g.transform.position.y) < 3){
+				c.transform.parent = g.transform;
+			}
+		}
+
+		GridBehavior gridBehavior = g.GetComponent<GridBehavior>();
+		gridBehavior.gridCounter = gridCounter; 
+		gridBehavior.gridIndex = gridIndex;
+		gridBehavior.setGridsActive(true);
+	}
+
+	void MakeClueGrid(int type, int index, int pos)
+	{
+		GameObject g = Instantiate(ClueGrid, Vector3.zero, Quaternion.identity) as GameObject;
+		ClueGridBehavior cg = g.GetComponent<ClueGridBehavior>();
+		cg.type = type;
+		cg.index = index;
+		cg.pos = pos;
+
+		switch (type) {
+		case 0:
+			g.transform.position = new Vector3 (-2, pos, 0);
+			foreach(GameObject c in GameObject.FindGameObjectsWithTag ("Clue")) {
+				if (Mathf.Abs(c.transform.position.y - pos) < 3) {
+					c.transform.parent = g.transform;
+				}
+			}
+			break;
+		case 1:
+			g.transform.position = new Vector3 (pos, 3, 0);
+			foreach(GameObject c in GameObject.FindGameObjectsWithTag ("Clue")) {
+				if (Mathf.Abs(c.transform.position.x - pos) < 3) {
+					c.transform.parent = g.transform;
+				}
+			}
+			break;
+		default:
+			break;
+		}
+	}
+
 	void CenterCamera()
 	{
 		float w = puzzle.getLongest (puzzle.rowClues) + puzzle.rows[0].cells.Count;
@@ -77,5 +142,5 @@ public class PuzzleBuilder : MonoBehaviour {
 		camera.transform.position = pos;
 		float l = (w > h) ? w : h;
 		camera.camera.orthographicSize = (l * 0.6F);
-	}
+	}	
 }

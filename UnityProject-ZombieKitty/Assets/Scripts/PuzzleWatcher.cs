@@ -18,7 +18,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	private GameGUI gameGUI;
 	private PlayerData playerData;
 	private PuzzleParser puzzleParser;
-	private Rect OverRect;
+	public Rect OverRect;
 
 	void Awake()
 	{

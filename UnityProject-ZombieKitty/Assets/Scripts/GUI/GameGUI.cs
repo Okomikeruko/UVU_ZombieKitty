@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class GameGUI : MonoBehaviour {
 
-	public ButtonClass shotgun, basket, life, timer, pause, help, helpIcon;
-	public bool ShotgunMode = false, BasketMode = true, paused = false;
+	public ButtonClass shotgun, basket, life, timer, pause, help, helpIcon, microscopeIn, microscopeOut;
+	public bool ShotgunMode = false, BasketMode = true, paused = false, zoomedIn = false, canZoom = true;
 	private bool[] lifeCounter = new bool[4] {true, true, true, true},
 				   helpCounter = new bool[4] {true, true, true, true};
 	private int helpCount;
@@ -93,6 +93,23 @@ public class GameGUI : MonoBehaviour {
 		}
 
 		GUI.Label (timer.AnchoredRect(), timer.content, timer.style);
+
+		if (zoomedIn){
+			if (GUI.Button (microscopeOut.AnchoredRect(), microscopeOut.content, microscopeOut.style)){
+				foreach (GameObject grid in GameObject.FindGameObjectsWithTag("Grid")){
+					GridBehavior g = grid.GetComponent<GridBehavior>();
+					g.ZoomOut();
+					zoomedIn = false;
+				}
+			}
+		}else{
+			canZoom = (GUI.Toggle (microscopeIn.AnchoredRect(), canZoom, microscopeIn.content, microscopeIn.style));
+			foreach (GameObject grid in GameObject.FindGameObjectsWithTag ("Grid"))
+			{
+				GridBehavior g = grid.GetComponent<GridBehavior>();
+				g.setGridsActive(canZoom);
+			}
+		}
 	}
 
 	void groupClick(string s)

@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GridBehavior.cs" />
      <Compile Include="Assets\Scripts\AutoCrossOut.cs" />
      <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
      <Compile Include="Assets\Scripts\ClueBehavior.cs" />
+     <Compile Include="Assets\Scripts\ClueGridBehavior.cs" />
      <Compile Include="Assets\Scripts\GUI\DefeatScreenGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\GameGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\LevelMenuGUI.cs" />

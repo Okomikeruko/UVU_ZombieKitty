@@ -496,6 +496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cell: {fileID: 100000, guid: 145fe04f7c101f3478c44ddab7ae0b55, type: 2}
   Clue: {fileID: 100000, guid: d24c6140962f20042bc737e34cabbcdf, type: 2}
+  Grid: {fileID: 100000, guid: de02b4d03959d2540af9d2c3af4f5d84, type: 2}
+  ClueGrid: {fileID: 100000, guid: bdb063b238feb4549a3de091886da0f6, type: 2}
 --- !u!4 &945652848
 Transform:
   m_ObjectHideFlags: 0
@@ -530,6 +532,12 @@ MonoBehaviour:
   VictoryScreen: {fileID: 937286754}
   DefeatScreen: {fileID: 2110396008}
   GameGUIScreen: {fileID: 1926486933}
+  OverRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &945652850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1289,7 +1297,7 @@ MonoBehaviour:
       height: 80
     scale: .5
     content:
-      m_Text: 4:53
+      m_Text: 4:54
       m_Image: {fileID: 0}
       m_Tooltip: 
     style:
@@ -1574,9 +1582,159 @@ MonoBehaviour:
       m_StretchWidth: 1
       m_StretchHeight: 0
     menuObject: {fileID: 0}
+  microscopeIn:
+    title: 
+    anchorPoint: 7
+    rect:
+      serializedVersion: 2
+      x: -.0799999982
+      y: -.0199999996
+      width: 134
+      height: 156
+    scale: .400000006
+    content:
+      m_Text: 
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    style:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 2800000, guid: 6af04bff435dd1d4d877634be29f7f09, type: 3}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 2800000, guid: 478f2f87e03cca6449a8362fa0f6ebab, type: 3}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 2800000, guid: 7e157193cdaef9c40ad54ef8d745c466, type: 3}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 2800000, guid: c7b749db8dd05d44d9d06c35304a2447, type: 3}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    menuObject: {fileID: 0}
+  microscopeOut:
+    title: 
+    anchorPoint: 7
+    rect:
+      serializedVersion: 2
+      x: -.0799999982
+      y: -.0199999996
+      width: 134
+      height: 156
+    scale: .400000006
+    content:
+      m_Text: 
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    style:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 2800000, guid: c011c54f30299614f8b54b68fc04bdca, type: 3}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 2800000, guid: 7a06d0d4d3ea02e46a4517191b1e9867, type: 3}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    menuObject: {fileID: 0}
   ShotgunMode: 0
   BasketMode: 1
   paused: 0
+  zoomedIn: 0
+  canZoom: 1
   lifeCounterOffset: 56
   helpCounterOffset: -56
 --- !u!4 &1926486935
