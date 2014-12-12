@@ -11,25 +11,29 @@ using System.Xml.Serialization;
 public class PlayerData : MonoBehaviour {
 
 	public Players playerData;
+	public Library allPuzzles;
 	public Player CurrentPlayer;
 	public int CurrentLevel;
 	private string Data, _Location;
 	[SerializeField]
 	private string Filename;
-
-	// Use this for initialization
+	
 	void Start () {
 		DontDestroyOnLoad(this.gameObject);
 		_Location = Application.dataPath + "\\XML";
 		LoadData();
-		if(Data.ToString() != "")
-		{
+		if(Data.ToString() != "") {
 			playerData = (Players)DeserializeObject(Data);
-			foreach (Player p in playerData.players)
-			{
-				if(p.isCurrent)
-				{
+			foreach (Player p in playerData.players) {
+				if(p.isCurrent) {
 					CurrentPlayer = p;
+					foreach (LevelProgress l in p.progress.Level){
+						if(l.puzzle.Count > 0) {
+							if (l.puzzle[0].puzzleRuns.Count > 0){
+								CurrentLevel = l.levelNum -1;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -142,7 +146,7 @@ public class Player
 	public Player(string newName)
 	{
 		name = newName;
-		progress = new Progress();
+		progress = new Progress("new");
 		progress.Level.Add(new LevelProgress());
 		settings = new GameSettings();
 	}
@@ -153,9 +157,18 @@ public class Progress
 	[XmlElement("level")]
 	public List<LevelProgress> Level { get; set; }
 
-	public Progress()
+	public Progress ()
 	{
 		Level = new List<LevelProgress>();
+	}
+
+	public Progress(string n)
+	{
+		Level = new List<LevelProgress>();
+		foreach (Level level in GameObject.Find ("PuzzleGenerator").GetComponent<PuzzleParser>().allPuzzles.levels)
+		{
+			Level.Add (new LevelProgress(level));
+		}
 	}
 }
 
@@ -164,29 +177,58 @@ public class LevelProgress
 	[XmlElement("puzzle")]
 	public List<PuzzleData> puzzle { get; set; }
 
+	[XmlElement("levelNum")]
+	public int levelNum;
+
 	public LevelProgress()
 	{
 		puzzle = new List<PuzzleData>(); 
 	}
-	public LevelProgress(PuzzleData p)
+	public LevelProgress(Level l)
 	{
+		levelNum = l.levelnum;
 		puzzle = new List<PuzzleData>();
-		puzzle.Add(p);
+		foreach(Puzzle p in l.puzzles){
+			puzzle.Add (new PuzzleData(p));
+		}
 	}
 }
 
 public class PuzzleData
 {
-	[XmlElement("highscore")]
-	public int highscore { get; set; }
+	[XmlElement("puzzleName")]
+	public string puzzleName { get; set; }
 
-	[XmlElement("besttime")]
-	public int besttime { get; set; }
+	[XmlElement("puzzleNum")]
+	public int puzzleNum { get; set; }
 
-	[XmlElement("lives")]
-	public int lives { get; set; }
+	[XmlElement("puzzleRuns")]
+	public List<PuzzleRun> puzzleRuns { get; set; }
 
 	public PuzzleData()
+	{
+		puzzleRuns = new List<PuzzleRun>(); 
+	}
+	public PuzzleData(Puzzle p)
+	{
+		puzzleName = p.name;
+		puzzleNum = p.puzzlenum; 
+		puzzleRuns = new List<PuzzleRun>();
+	}
+}
+
+public class PuzzleRun
+{
+	[XmlElement("highscore")]
+	public int highscore { get; set; }
+	
+	[XmlElement("besttime")]
+	public int besttime { get; set; }
+	
+	[XmlElement("lives")]
+	public int lives { get; set; }
+	
+	public PuzzleRun()
 	{
 		highscore = lives = besttime = 0;
 	}
@@ -198,7 +240,13 @@ public class GameSettings
 	public float musicVolume { get; set; }
 
 	[XmlElement("sfx")]
-	public float sfxVolume { get; set;}
+	public float sfxVolume { get; set; }
+
+	[XmlElement("scopeState")]
+	public string scopeState { get; set; }
+
+	[XmlElement("toolState")]
+	public string toolState { get; set; }
 
 	[XmlElement("playmode")]
 	public int playmode { get; set; }

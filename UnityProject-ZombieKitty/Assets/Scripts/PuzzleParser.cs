@@ -70,6 +70,8 @@ public class PuzzleParser : MonoBehaviour {
 		
 		if (p.puzzlenum == currentLevel.puzzles.Count){
 			if(currentLevel.levelnum != allPuzzles.levels.Count){
+				GameObject.Find ("PuzzleBuilder").GetComponent<PuzzleWatcher>().puzzleIndex++;
+				GameObject.Find ("PlayerData").GetComponent<PlayerData>().CurrentLevel++;
 				return allPuzzles.levels[currentLevel.levelnum].puzzles[0];
 			}else{
 				return p;
