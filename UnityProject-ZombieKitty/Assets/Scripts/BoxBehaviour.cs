@@ -8,6 +8,7 @@ public class BoxBehaviour : MonoBehaviour {
 
 	public Material openBox;
 	public Color openColor;
+	public SplitCell splitCell;
 	public bool kitty, isOpen = false;
 	public string state = "hand";
 	public int mode = 1, kittyScore = 50, zombieScore = 50;
@@ -91,9 +92,19 @@ public class BoxBehaviour : MonoBehaviour {
 	public void open()
 	{
 		isOpen = true;
+		if(splitCell != null)
+			splitCell.solved = true;
 		this.renderer.material = openBox;
 		this.renderer.material.color = openColor;
 		pw.solveCount++;
+		clickEvent = empty;
+	}
+
+	public void openOnStart()
+	{
+		isOpen = true;
+		this.renderer.material = openBox;
+		this.renderer.material.color = openColor;
 		clickEvent = empty;
 	}
 

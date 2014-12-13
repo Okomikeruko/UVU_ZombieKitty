@@ -55,12 +55,12 @@ public class PlayMenuGUI : MonoBehaviour {
 		{
 
 		}
-		GUI.enabled = playerData.CurrentPlayer.progress.Level.Count > 3;
+		GUI.enabled = playerData.CurrentPlayer.progress.Level[2].puzzle[9].puzzleRuns.Count > 0;
 		if(GUI.Button (IntermediateLevels.AnchoredRect (), IntermediateLevels.content, IntermediateLevels.style))
 		{
 
 		}
-		GUI.enabled = playerData.CurrentPlayer.progress.Level.Count > 6;
+		GUI.enabled = playerData.CurrentPlayer.progress.Level[5].puzzle[11].puzzleRuns.Count > 0;
 		if(GUI.Button (AdvancedLevels.AnchoredRect(), AdvancedLevels.content, AdvancedLevels.style))
 		{
 

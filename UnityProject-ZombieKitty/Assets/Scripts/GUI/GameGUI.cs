@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class GameGUI : MonoBehaviour {
 
-	public ButtonClass shotgun, basket, life, timer, pause, help, helpIcon, microscopeIn, microscopeOut;
+	public ButtonClass shotgun, basket, life, timer, pause, help, helpIcon, microscopeIn, microscopeOut, petriDish;
 	public bool ShotgunMode = false, BasketMode = true, paused = false, zoomedIn = false, canZoom = true;
 	private bool[] lifeCounter = new bool[4] {true, true, true, true},
 				   helpCounter = new bool[4] {true, true, true, true};
@@ -112,6 +112,16 @@ public class GameGUI : MonoBehaviour {
 				}
 			}
 		}
+		if(puzzleWatcher.levelIndex > 4) {
+			if(GUI.Button (petriDish.AnchoredRect(), petriDish.content, petriDish.style)){
+				LevelSplitter levelSplitter = petriDish.menuObject.GetComponent<LevelSplitter>();
+				levelSplitter.minimap = levelSplitter.splitLevel.printTextures();
+				paused = true;
+				Time.timeScale = 0;
+				petriDish.menuObject.SetActive(true);
+			}
+		}
+		Debug.Log (puzzleWatcher.levelIndex);
 	}
 
 	void groupClick(string s)

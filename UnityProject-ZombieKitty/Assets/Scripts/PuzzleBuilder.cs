@@ -10,8 +10,8 @@ public class PuzzleBuilder : MonoBehaviour {
 	public GameObject Cell, Clue, Grid, ClueGrid;
 	private PuzzleWatcher pw;
 	private PlayerData playerData;
-	
-	void Start () {
+
+	public void BuildPuzzlePart () {
 		pw = this.gameObject.GetComponent<PuzzleWatcher>();
 		puzzle = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>().currentPuzzle;
 		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
@@ -19,7 +19,76 @@ public class PuzzleBuilder : MonoBehaviour {
 		CenterCamera();
 		pw.puzzleIndex = puzzle.puzzlenum - 1;
 	}
-	
+
+	public void BuildPuzzlePart(Puzzle p, Puzzle original)
+	{
+		pw = this.gameObject.GetComponent<PuzzleWatcher>();
+		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
+		puzzle = p;
+		BuildPuzzle(p);
+		CenterCamera();
+		pw.puzzleIndex = original.puzzlenum - 1; 
+	}
+
+	public void BuildPuzzlePart(Section p, Puzzle original)
+	{
+		pw = this.gameObject.GetComponent<PuzzleWatcher>();
+		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
+		puzzle = p.puzzle;
+		BuildPuzzle(p);
+		CenterCamera();
+		pw.puzzleIndex = original.puzzlenum - 1;
+	}
+
+	void BuildPuzzle(Section s){
+		int i = s.puzzle.rows.Count;
+		foreach(Row row in s.puzzle.rows)
+		{
+			int j = 0;
+			foreach(Cell cell in row.cells.Reverse<Cell>())
+			{
+				MakeCell(cell, j, i, s.cells[s.puzzle.rows.Count - i][(row.cells.Count - 1) + j]);
+				j--;
+			}
+			foreach(int clue in s.puzzle.rowClues[s.puzzle.rows.Count - i].Reverse<int>())
+			{
+				MakeClue(clue, j, i, ClueType.row, i);
+				j--;
+			}
+			i--;
+		}
+		int k = 0;
+		foreach (List<int> clues in s.puzzle.colClues.Reverse<List<int>>())
+		{
+			int l = 1;
+			foreach (int clue in clues.Reverse<int>())
+			{
+				MakeClue (clue, k, l + s.puzzle.rows.Count, ClueType.column, k);
+				l++;
+			}
+			k--;
+		}
+		Vector2 gridCount = new Vector2(s.puzzle.rows[0].cells.Count, s.puzzle.rows.Count);
+		gridCount /= 5;
+		
+		for (int m = 0; m < gridCount.y; m++)
+		{
+			for (int n = 0; n > -gridCount.x; n--)
+			{
+				MakeGrid ((n*5)-2, (m*5)+3, gridCount, new Vector2(Mathf.Abs (n), m));
+			}
+		}
+		
+		for (int o = 0; o < gridCount.y; o++)
+		{
+			MakeClueGrid (0, o, (o*5)+3);
+		}
+		for (int o = 0; o > -gridCount.x; o--)
+		{
+			MakeClueGrid (1, o, (o*5)-2);
+		}
+	}
+
 	void BuildPuzzle(Puzzle p)
 	{
 		int i = p.rows.Count;
@@ -76,6 +145,18 @@ public class PuzzleBuilder : MonoBehaviour {
 		BoxBehaviour b = c.GetComponent<BoxBehaviour>();
 		b.openColor = cell.getColor();
 		b.kitty = cell.isHealthy();
+		b.mode = playerData.CurrentPlayer.settings.playmode;
+		pw.puzzleCount++;
+	}
+
+	void MakeCell(Cell cell, int x, int y, SplitCell s)
+	{
+		GameObject c = Instantiate(Cell, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
+		BoxBehaviour b = c.GetComponent<BoxBehaviour>();
+		b.openColor = cell.getColor();
+		b.kitty = cell.isHealthy();
+		b.splitCell = s;
+		if(s.solved) b.openOnStart();
 		b.mode = playerData.CurrentPlayer.settings.playmode;
 		pw.puzzleCount++;
 	}

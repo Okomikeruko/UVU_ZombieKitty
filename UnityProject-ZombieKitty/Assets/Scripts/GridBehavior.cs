@@ -34,7 +34,7 @@ public class GridBehavior : MonoBehaviour {
 	void OnMouseDown() {
 		if (pw.OverRect.Contains(Input.mousePosition) && gameGUI.canZoom){
 			gameGUI.zoomedIn = true;
-			foreach (GameObject gridPart in gridParts)
+			foreach (GameObject gridPart in GameObject.FindGameObjectsWithTag("Grid"))
 			{
 				GridBehavior g = gridPart.GetComponent<GridBehavior>();
 				if (g != null){
@@ -86,7 +86,7 @@ public class GridBehavior : MonoBehaviour {
 		xPos = originalPos.x + squashOffset (Mathf.RoundToInt (growIndex.x), 
 		                                     Mathf.RoundToInt (gridIndex.x), 
 		                                     Mathf.RoundToInt (gridCounter.x));
-		yPos = originalPos.y + squashOffset (Mathf.RoundToInt (growIndex.y), 
+		yPos = originalPos.y - squashOffset (Mathf.RoundToInt (growIndex.y), 
 		                                     Mathf.RoundToInt (gridIndex.y), 
 		                                     Mathf.RoundToInt (gridCounter.y));
 
@@ -100,15 +100,15 @@ public class GridBehavior : MonoBehaviour {
 		int[,] fours =  new int[4,4] {
 			{-6, -10, -6, -2},
 			{ 2,  -2, -6, -2},
-			{ 2,   6, -2, -2},
-			{ 2,   6, 10, -6}
+			{ 2,   6,  2, -2},
+			{ 2,   6, 10,  6}
 		}, threes = new int[3,3] {
 			{-4, -6, -2},
 			{ 2,  0, -2},
 			{ 2,  6,  4}
 		}, twos = new int[2,2] {
-			{ 2,  2},
-			{-2, -2}
+			{-2, -2},
+			{ 2,  2}
 		};
 		int output = 0;
 		switch (count)
@@ -130,7 +130,7 @@ public class GridBehavior : MonoBehaviour {
 
 	void squash(){
 
-		if (transform.localScale != newScale && transform.position != newPos)
+		if (transform.localScale != newScale || transform.position != newPos)
 		{
 			transform.localScale = Vector3.Lerp (transform.localScale, newScale, animationSpeed * Time.deltaTime);
 			transform.position = Vector3.Lerp (transform.position, newPos, animationSpeed * Time.deltaTime);

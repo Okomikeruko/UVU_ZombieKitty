@@ -101,8 +101,7 @@ public class PlayerData : MonoBehaviour {
 
 	public void ResetLevels()
 	{
-		CurrentPlayer.progress = new Progress();
-		CurrentPlayer.progress.Level.Add(new LevelProgress());
+		CurrentPlayer.progress = new Progress("new");
 		SaveData();
 	}
 }
