@@ -124,6 +124,7 @@ public class Players
 		{
 			player.isCurrent = (player.name == playerName);
 		}
+
 	}
 }
 

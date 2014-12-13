@@ -61,6 +61,13 @@ public class PlayerMenuGUI : MonoBehaviour {
 				{
 					playerData.playerData.setCurrentPlayer(playerData.playerData.players[i].name);
 					playerData.CurrentPlayer = playerData.playerData.players[i];
+					foreach (LevelProgress l in playerData.CurrentPlayer.progress.Level){
+						if(l.puzzle.Count > 0) {
+							if (l.puzzle[0].puzzleRuns.Count > 0){
+								playerData.CurrentLevel = l.levelNum -1;
+							}
+						}
+					}
 					playerData.SaveData();
 				}
 

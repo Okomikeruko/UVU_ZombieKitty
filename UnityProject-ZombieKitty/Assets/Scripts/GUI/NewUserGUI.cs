@@ -39,6 +39,7 @@ public class NewUserGUI : MonoBehaviour {
 			Player newPlayer = new Player(newName);
 			playerData.playerData.players.Add(newPlayer);
 			playerData.playerData.setCurrentPlayer(newName);
+			playerData.CurrentLevel = 0;
 			playerData.CurrentPlayer = playerData.playerData.players[playerData.playerData.players.Count - 1];
 			playerData.SaveData();
 			newName = "";

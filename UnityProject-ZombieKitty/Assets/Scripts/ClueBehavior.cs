@@ -24,7 +24,7 @@ public class ClueBehavior : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-		if(Input.GetMouseButton(0) && !gameGUI.paused && !pw.end && !autoCrossOut){
+		if(Input.GetMouseButton(0) && !gameGUI.paused && !pw.end && !autoCrossOut && pw.isOver){
 			crossOut.SetActive(!crossOut.activeSelf);
 		}
 	}

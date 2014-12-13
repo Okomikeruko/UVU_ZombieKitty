@@ -10,7 +10,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	public int puzzleCount { get; set; }
 	public int puzzleIndex { get; set; }
 	public int lives = 4, bites = 0, score = 0;
-	public float TimeRemaining = 301;
+	public float TimeRemaining;
 	public bool end = false, isOver = false, isHighlighting = false;
 	public int levelIndex;
 
@@ -38,7 +38,8 @@ public class PuzzleWatcher : MonoBehaviour {
 		gameGUI = GameObject.Find ("GameGUI").GetComponent<GameGUI>();
 		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
 		puzzleParser = GameObject.Find("PuzzleGenerator").GetComponent<PuzzleParser>();
-		levelIndex = playerData.CurrentLevel;
+		TimeRemaining = puzzleParser.currentPuzzle.rows.Count * 
+			puzzleParser.currentPuzzle.rows[0].cells.Count * 12;
 	}
 	void Update()
 	{
@@ -50,9 +51,9 @@ public class PuzzleWatcher : MonoBehaviour {
 		TimeRemaining -= Time.deltaTime;
 		string printTime = (TimeRemaining > 0) ? 
 			Mathf.FloorToInt(TimeRemaining / 60).ToString() +
-				":" +
+				" : " +
 					Mathf.FloorToInt(Mathf.Repeat (TimeRemaining, 60)).ToString("D2")
-						: "0:00";
+						: "0 : 00";
 
 		gameGUI.timer.content.text = printTime;
 	}
@@ -98,6 +99,7 @@ public class PuzzleWatcher : MonoBehaviour {
 	void overDetect()
 	{
 		isOver = OverRect.Contains(Input.mousePosition);
+		levelIndex = playerData.CurrentLevel;
 	}
 
 	void empty () {}
