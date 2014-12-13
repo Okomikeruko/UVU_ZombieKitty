@@ -17,6 +17,7 @@ public class PuzzleBuilder : MonoBehaviour {
 		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
 		BuildPuzzle(puzzle);
 		CenterCamera();
+		pw.puzzleIndex = puzzle.puzzlenum - 1;
 	}
 	
 	void BuildPuzzle(Puzzle p)

@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GridBehavior.cs" />
      <Compile Include="Assets\Scripts\AutoCrossOut.cs" />
      <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
      <Compile Include="Assets\Scripts\ClueBehavior.cs" />
@@ -63,6 +62,7 @@
      <Compile Include="Assets\Scripts\GUI\PlayerMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\VictoryScreenGUI.cs" />
+     <Compile Include="Assets\Scripts\GridBehavior.cs" />
      <Compile Include="Assets\Scripts\PlayerData.cs" />
      <Compile Include="Assets\Scripts\PlayerDeleteGUI.cs" />
      <Compile Include="Assets\Scripts\PuzzleBuilder.cs" />

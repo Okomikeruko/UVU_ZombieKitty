@@ -528,7 +528,7 @@ MonoBehaviour:
   end: 0
   isOver: 0
   isHighlighting: 0
-  levelNum: 0
+  levelIndex: 0
   VictoryScreen: {fileID: 937286754}
   DefeatScreen: {fileID: 2110396008}
   GameGUIScreen: {fileID: 1926486933}
@@ -594,10 +594,10 @@ MonoBehaviour:
     rect:
       serializedVersion: 2
       x: 0
-      y: -.170000002
-      width: 85
-      height: 81
-    scale: .800000012
+      y: -.300000012
+      width: 278
+      height: 278
+    scale: .5
     content:
       m_Text: 
       m_Image: {fileID: 0}
@@ -605,13 +605,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 2800000, guid: 91cdafb20b58f594d96c371102cd80be, type: 3}
+        m_Background: {fileID: 2800000, guid: a6e2e6f39456aa64787ad4fb94f8bf25, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 58627009a70eeb24485225b3c9fe8a07, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -667,10 +667,10 @@ MonoBehaviour:
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: .0599999987
-      y: -.057
-      width: 223
-      height: 182
+      x: -.0900000036
+      y: -.00999999978
+      width: 158
+      height: 189
     scale: .5
     content:
       m_Text: 
@@ -679,13 +679,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 2800000, guid: 602b465fc6a1cdc4e916765fafd278e0, type: 3}
+        m_Background: {fileID: 2800000, guid: 4ef51725f5324f04a8d0b80dea31391e, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: b283a5e3d3f09664391a3d30c5d79444, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -741,10 +741,10 @@ MonoBehaviour:
     anchorPoint: 4
     rect:
       serializedVersion: 2
-      x: -.0799999982
-      y: -.0450000018
-      width: 153
-      height: 167
+      x: .100000001
+      y: .00999999978
+      width: 113
+      height: 173
     scale: .5
     content:
       m_Text: 
@@ -753,13 +753,13 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 2800000, guid: 381cff99b49b069419f650a29deda769, type: 3}
+        m_Background: {fileID: 2800000, guid: 85a8e85aa1aace042aa736d5edfb6060, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Active:
-        m_Background: {fileID: 0}
+        m_Background: {fileID: 2800000, guid: 53bcad2afe81023428c3564b4cc4c6ed, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Focused:
         m_Background: {fileID: 0}
@@ -816,9 +816,9 @@ MonoBehaviour:
     rect:
       serializedVersion: 2
       x: 0
-      y: -.100000001
-      width: 501
-      height: 276
+      y: -.310000002
+      width: 739
+      height: 564
     scale: .5
     content:
       m_Text: 
@@ -827,7 +827,7 @@ MonoBehaviour:
     style:
       m_Name: 
       m_Normal:
-        m_Background: {fileID: 2800000, guid: 1a74a2fb0d09c084c931c901f9e21f4e, type: 3}
+        m_Background: {fileID: 2800000, guid: 3ae01b1e1736c05449dd66c4b1cc905a, type: 3}
         m_TextColor: {r: 0, g: 0, b: 0, a: 1}
       m_Hover:
         m_Background: {fileID: 0}

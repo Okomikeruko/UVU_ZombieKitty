@@ -94,20 +94,22 @@ public class GameGUI : MonoBehaviour {
 
 		GUI.Label (timer.AnchoredRect(), timer.content, timer.style);
 
-		if (zoomedIn){
-			if (GUI.Button (microscopeOut.AnchoredRect(), microscopeOut.content, microscopeOut.style)){
-				foreach (GameObject grid in GameObject.FindGameObjectsWithTag("Grid")){
-					GridBehavior g = grid.GetComponent<GridBehavior>();
-					g.ZoomOut();
-					zoomedIn = false;
+		if(puzzleWatcher.levelIndex > 2) {
+			if (zoomedIn){
+				if (GUI.Button (microscopeOut.AnchoredRect(), microscopeOut.content, microscopeOut.style)){
+					foreach (GameObject grid in GameObject.FindGameObjectsWithTag("Grid")){
+						GridBehavior g = grid.GetComponent<GridBehavior>();
+						g.ZoomOut();
+						zoomedIn = false;
+					}
 				}
-			}
-		}else{
-			canZoom = (GUI.Toggle (microscopeIn.AnchoredRect(), canZoom, microscopeIn.content, microscopeIn.style));
-			foreach (GameObject grid in GameObject.FindGameObjectsWithTag ("Grid"))
-			{
-				GridBehavior g = grid.GetComponent<GridBehavior>();
-				g.setGridsActive(canZoom);
+			}else{
+				canZoom = (GUI.Toggle (microscopeIn.AnchoredRect(), canZoom, microscopeIn.content, microscopeIn.style));
+				foreach (GameObject grid in GameObject.FindGameObjectsWithTag ("Grid"))
+				{
+					GridBehavior g = grid.GetComponent<GridBehavior>();
+					g.setGridsActive(canZoom);
+				}
 			}
 		}
 	}
