@@ -121,7 +121,6 @@ public class GameGUI : MonoBehaviour {
 				petriDish.menuObject.SetActive(true);
 			}
 		}
-		Debug.Log (puzzleWatcher.levelIndex);
 	}
 
 	void groupClick(string s)

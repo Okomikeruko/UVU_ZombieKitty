@@ -9,8 +9,11 @@ public class PlayMenuGUI : MonoBehaviour {
 	public ButtonClass BeginnerLevels, IntermediateLevels, AdvancedLevels, Back, Resume, NewGame;
 	private PlayerData playerData;
 	private PuzzleParser puzzleParser;
+	public GameObject LevelMenuObject;
+	private LevelMenuGUI levelMenuGUI;
 
 	void Start(){
+		levelMenuGUI = LevelMenuObject.GetComponent<LevelMenuGUI>();
 		playerData = GameObject.Find ("PlayerData").GetComponent<PlayerData>();
 		puzzleParser = GameObject.Find ("PuzzleGenerator").GetComponent<PuzzleParser>();
 	}
@@ -42,7 +45,6 @@ public class PlayMenuGUI : MonoBehaviour {
 		GUI.enabled = !noob;
 		if(GUI.Button (Resume.AnchoredRect(), Resume.content, Resume.style))
 		{
-
 			puzzleParser.currentPuzzle = NextPuzzle();
 			Application.LoadLevel("Game");
 		}
@@ -53,17 +55,20 @@ public class PlayMenuGUI : MonoBehaviour {
 		}
 		if(GUI.Button (BeginnerLevels.AnchoredRect(), BeginnerLevels.content, BeginnerLevels.style))
 		{
-
+			levelMenuGUI.level = 0;
+			MenuController.ChangeMenu(LevelMenuObject, this.gameObject);
 		}
 		GUI.enabled = playerData.CurrentPlayer.progress.Level[2].puzzle[9].puzzleRuns.Count > 0;
 		if(GUI.Button (IntermediateLevels.AnchoredRect (), IntermediateLevels.content, IntermediateLevels.style))
 		{
-
+			levelMenuGUI.level = 1;
+			MenuController.ChangeMenu(LevelMenuObject, this.gameObject);
 		}
 		GUI.enabled = playerData.CurrentPlayer.progress.Level[5].puzzle[11].puzzleRuns.Count > 0;
 		if(GUI.Button (AdvancedLevels.AnchoredRect(), AdvancedLevels.content, AdvancedLevels.style))
 		{
-
+			levelMenuGUI.level = 2;
+			MenuController.ChangeMenu(LevelMenuObject, this.gameObject);
 		}
 	}
 

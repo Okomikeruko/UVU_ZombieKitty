@@ -27,17 +27,22 @@ public class PlayerData : MonoBehaviour {
 			foreach (Player p in playerData.players) {
 				if(p.isCurrent) {
 					CurrentPlayer = p;
-					foreach (LevelProgress l in p.progress.Level){
-						if(l.puzzle.Count > 0) {
-							if (l.puzzle[0].puzzleRuns.Count > 0){
-								CurrentLevel = l.levelNum -1;
-							}
-						}
-					}
+					CurrentLevel = getCurrentLevel(p);
 				}
 			}
 		}
 		Application.LoadLevel("Menu");
+	}
+
+	int getCurrentLevel(Player p) {
+		foreach (LevelProgress l in p.progress.Level){
+			foreach(PuzzleData puzzle in l.puzzle){
+				if (puzzle.puzzleRuns.Count == 0){
+					return l.levelNum - 1;
+				}
+			}
+		}
+		return 8;
 	}
 
 	byte[] StringToUTF8ByteArray(string pXmlString)
