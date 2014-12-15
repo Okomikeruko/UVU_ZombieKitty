@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<scene num="0" name="Intro">
+		<line speaker="Dr. Paws" emotion="Neutral">Hello there.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">My name is Dr. Paws. This is my assistant, Nurse Whiskers.</line>
+		<line speaker="Nurse Whiskers" emotion="Neutral">How do you do?</line>
+		<line speaker="Dr. Paws" emotion="Happy">You're here because you're the best micro-biologist in the world.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">Those poor kittens.</line>
+		<line speaker="Dr. Paws" emotion="Sad">As you're probably aware, a new virus is affecting kittens around the world.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">The kittens are turning into zombies.</line>
+		<line speaker="Nurse Whiskers" emotion="Shocked">And you're our only hope!</line>
+		<line speaker="Nurse Whiskers" emotion="Shocked">You're here to help us find the cure!</line>
+		<line speaker="Dr. Paws" emotion="Neutral" event="Tutorial">This is your first time here. Do you need a tutorial to figure out what to do?</line>
+		<line speaker="Nurse Whiskers" emotion="Happy">Let's get started!</line>
+	</scene>
+	<scene num="1" name="Getting Started">
+		<line speaker="Nurse Whiskers" emotion="Happy">I knew you could do it!</line>
+		<line speaker="Dr. Paws" emotion="Happy">Well done!</line>
+		<line speaker="Dr. Paws" emotion="Neutral">But now is not the time for celebration.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">You've successfully created a vaccine to cure the first stages of Kitten Zombification.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">But to completely eradicate the Kitten Zombification scourge, we must press on.</line>
+		<line speaker="Dr. Paws" emotion="Angry">Time is of the essence!</line>
+		<line speaker="Nurse Whiskers" emotion="Suspicious">Relax, Dr. Paws. I'm sure our new colleague can handle it.</line>
+	</scene>
+	
+</root>

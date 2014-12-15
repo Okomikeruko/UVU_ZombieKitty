@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Characters.cs" />
+     <Compile Include="Assets\ConvoGUI.cs" />
+     <Compile Include="Assets\ConvoParser.cs" />
      <Compile Include="Assets\LevelSplitter.cs" />
      <Compile Include="Assets\Scripts\AutoCrossOut.cs" />
      <Compile Include="Assets\Scripts\BoxBehaviour.cs" />
@@ -60,18 +63,19 @@
      <Compile Include="Assets\Scripts\GUI\OptionsMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PauseScreenGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlayerDeleteGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayerMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\PuzzleMenuGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\VictoryScreenGUI.cs" />
      <Compile Include="Assets\Scripts\GridBehavior.cs" />
      <Compile Include="Assets\Scripts\PlayerData.cs" />
-     <Compile Include="Assets\Scripts\PlayerDeleteGUI.cs" />
      <Compile Include="Assets\Scripts\PuzzleBuilder.cs" />
      <Compile Include="Assets\Scripts\PuzzleParser.cs" />
      <Compile Include="Assets\Scripts\PuzzleWatcher.cs" />
      <Compile Include="Assets\Scripts\iOSbehaviour.cs" />
      <None Include="Assets\XML\playerdata.xml" />
      <None Include="Assets\XML\puzzles.xml" />
+     <None Include="Assets\XML\convo_eng.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

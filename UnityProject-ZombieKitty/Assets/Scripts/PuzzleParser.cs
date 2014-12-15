@@ -12,6 +12,12 @@ public class PuzzleParser : MonoBehaviour {
 	
 	public Library allPuzzles;
 	public Puzzle currentPuzzle;
+	public int currentLevelIndex { 
+		get { return allPuzzles.levels.FindIndex(level => level.puzzles.Exists(puz => puz == currentPuzzle)); } 
+	}
+	public bool isLastPuzzle {
+		get { return currentPuzzle == allPuzzles.levels.Last ().puzzles.Last (); }
+	}
 	private string Data, _Location;
 	[SerializeField]
 	private string Filename;
@@ -80,7 +86,12 @@ public class PuzzleParser : MonoBehaviour {
 			return currentLevel.puzzles[p.puzzlenum];
 		}
 	}
-
+	public bool IsLast(Puzzle p)
+	{
+		Level l = allPuzzles.levels.Find(level => level.puzzles.Exists(puz => puz == p));
+		int i = l.puzzles.FindIndex(puz => puz == p);
+		return l.puzzles[i].puzzlenum == l.puzzles.Count;
+	}
 }
 
 [XmlRoot("root")]

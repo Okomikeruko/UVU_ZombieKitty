@@ -33,13 +33,13 @@ public class PlayMenuGUI : MonoBehaviour {
 				{
 					playerData.ResetLevels();
 					puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[0].puzzles[0];
-					Application.LoadLevel("Game");
+					Application.LoadLevel("Convo");
 				}
 			}
 			else
 			{
 				puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[0].puzzles[0];
-				Application.LoadLevel("Game");
+				Application.LoadLevel("Convo");
 			}
 		}
 		GUI.enabled = !noob;
