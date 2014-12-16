@@ -112,7 +112,7 @@ public class GameGUI : MonoBehaviour {
 				}
 			}
 		}
-		if(puzzleWatcher.levelIndex > 4) {
+		if(puzzleWatcher.levelIndex > 5) {
 			if(GUI.Button (petriDish.AnchoredRect(), petriDish.content, petriDish.style)){
 				LevelSplitter levelSplitter = petriDish.menuObject.GetComponent<LevelSplitter>();
 				levelSplitter.minimap = levelSplitter.splitLevel.printTextures();

@@ -2,6 +2,7 @@
 using UnityEditor;
 using System;
 using System.Collections;
+using System.Linq;
 
 
 public class ConvoGUI : MonoBehaviour {
@@ -59,6 +60,8 @@ public class ConvoGUI : MonoBehaviour {
 				isPrinting = false;
 				Box.content.text = line.speaker + ": " + line.dialog;
 			}
+		} else if ( scene == GameObject.Find ("Convo Parser").GetComponent<ConvoParser>().script.scenes.Last() ) {
+			Application.LoadLevel("Menu");
 		} else {
 			GameObject.Find ("Convo Parser").GetComponent<ConvoParser>().LoadNextScene();
 			Application.LoadLevel ("Game");
@@ -90,6 +93,28 @@ public class ConvoGUI : MonoBehaviour {
 					"No")
 				   ){
 					Debug.Log ("Play Tutorial");
+				}
+				UpdateBox ();
+				break;
+			case "Microscope":
+				if(EditorUtility.DisplayDialog(
+					"Do you want to view the Tutorial?",
+					"",
+					"Yes",
+					"No")
+				   ){
+					Debug.Log ("Play Microscope Tutorial");
+				}
+				UpdateBox ();
+				break;
+			case "Petri Dish":
+				if(EditorUtility.DisplayDialog(
+					"Do you want to view the Tutorial?",
+					"",
+					"Yes",
+					"No")
+				   ){
+					Debug.Log ("Play Petri Dish Tutorial");
 				}
 				UpdateBox ();
 				break;

@@ -22,5 +22,85 @@
 		<line speaker="Dr. Paws" emotion="Angry">Time is of the essence!</line>
 		<line speaker="Nurse Whiskers" emotion="Suspicious">Relax, Dr. Paws. I'm sure our new colleague can handle it.</line>
 	</scene>
+	<scene num="2" name="Well that was easy">
+		<line speaker="Dr. Paws" emotion="Happy">It seems you're getting the hang of it.</line>
+		<line speaker="Nurse Whiskers" emotion="Proud">Wonderful job! You've extended the vaccine's reach to the second stage mutation!</line>
+		<line speaker="Nurse Whiskers" emotion="Neutral">At this rate, we'll have that cure in no time!</line>
+		<line speaker="Dr. Paws" emotion="Angry">Not so fast!</line>
+		<line speaker="Nurse Whiskers" emotion="Surprise">What is it?</line>
+		<line speaker="Dr. Paws" emotion="Angry">It's only going to get harder from here.</line>
+		<line speaker="Nurse Whiskers" emotion="Suspicious">Don't be so negative, Doctor.</line>
+		<line speaker="Nurse Whiskers" emotion="Proud">You can do it. I know you can.</line>
+	</scene>
+	<scene num="3" name="Microscope">
+		<line speaker="Dr. Paws" emotion="Neutral">Well, you've done a good job up until now.</line>
+		<line speaker="Dr. Paws" emotion="Happy">You've cured all the kittens with stage 3 zombification.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">But we just don't have the equipment to handle stage 4.</line> 
+		<line speaker="Dr. Paws" emotion="Sad">It looks like we're finished.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">Aw... That's so sad.</line>
+		<line speaker="Nurse Whiskers" emotion="Neutral">And I had just found this new tool for you to use.</line>
+		<line speaker="Dr. Paws" emotion="Surprise">You found it?</line>
+		<line speaker="Nurse Whiskers" emotion="Proud">Sure did! Now you can use the Microscope.</line>
+		<line speaker="Dr. Paws" emotion="Happy">Excellent. I was wrong. Our work can progress.</line>
+		<line speaker="Dr. Paws" emotion="Neutral" event="Microscope">Do you want to see the tutorial on how to use it?</line>
+		<line speaker="Nurse Whiskers" emotion="Proud">You can do this!</line>
+	</scene>
+	<scene num="4" name="Escalation">
+		<line speaker="Nurse Whiskers" emotion="Surprise">Wait! What happened?</line>
+		<line speaker="Nurse Whiskers" emotion="Shocked">Something is very wrong.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">I was afraid something like this would happen.</line>
+		<line speaker="Dr. Paws" emotion="Sad">The virus is mutating too quickly. Stage 5 Zombification is now transmitted by touch.</line>
+		<line speaker="Nurse Whiskers" emotion="Surprise">We have to find a cure, and fast!</line>
+		<line speaker="Dr. Paws" emotion="Neutral">We're safe so long as we keep the specimens safely at bay.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">Don't let them bite you.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">Please be careful.</line>
+	</scene>
+	<scene num="5" name="Danger Zone">
+		<line speaker="Dr. Paws" emotion="Neutral">That was a close one.</line>
+		<line speaker="Nurse Whiskers" emotion="Suspicious">We have to be more careful than that.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">Who knows what would happen to the world if you let yourself get turned.</line>
+		<line speaker="Dr. Paws" emotion="Sad">It does not do to dwell on negative 'what if's.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">We must stay focused on the task at hand.</line>
+		<line speaker="Dr. Paws" emotion="Happy">Are you ready to dive back in?</line>
+		<line speaker="Nurse Whiskers" emotion="Proud">Let's do this.</line>
+	</scene>
+	<scene num="6" name="Petri Dish">
+		<line speaker="Nurse Whiskers" emotion="Shocked">Oh no! They're getting to complex.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">There's no way to keep going</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">We've failed...</line>
+		<line speaker="Dr. Paws" emotion="Neutral">If you've taught me anything, Nurse, it's to never give up hope.</line>
+		<line speaker="Dr. Paws" emotion="Happy">Also, to dig a little deeper into these filing cabinets.</line>
+		<line speaker="Dr. Paws" emotion="Happy">I found these petri dishes. They'll let us splice up the virus into manageable chunks.</line>
+		<line speaker="Nurse Whiskers" emotion="Shocked">That's incredible!</line>
+		<line speaker="Dr. Paws" emotion="Neutral" event="Petri Dish">Do you want to see the tutorial on how to use it?</line>
+		<line speaker="Nurse Whiskers" emotion="Happy">We're almost there!</line>
+	</scene>
+	<scene num="7" name="Hitting The Fan">
+		<line speaker="Nurse Whiskers" emotion="Shocked">They've escaped! They're all gone!</line>
+		<line speaker="Dr. Paws" emotion="Surprise">Lock the doors! Hurry!</line>
+		<line speaker="Nurse Whiskers" emotion="Surprise">They're breaking through!</line>
+		<line speaker="Dr. Paws" emotion="Surprise">Help me move this table.</line>
+		<line speaker="Dr. Paws" emotion="Angry">There. Now they can't get in.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">And we can't get out.</line>
+		<line speaker="Dr. Paws" emotion="Sad">Our only chance is if you can find the cure before they get in.</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">Good luck!</line>
+	</scene>
+	<scene num="8" name="">
+		<line speaker="Nurse Whiskers" emotion="Sad">We're done for.</line>
+		<line speaker="Dr. Paws" emotion="Anger">What are you talking about?</line>
+		<line speaker="Nurse Whiskers" emotion="Shocked">And we were so close!</line>
+		<line speaker="Dr. Paws" emotion="Anger">We're not through yet. </line>
+		<line speaker="Nurse Whiskers" emotion="Surprise">How are we possibly going to get through this?</line>
+		<line speaker="Nurse Whiskers" emotion="Sad">The mutations just keep coming and coming.</line>
+		<line speaker="Dr. Paws" emotion="Anger">We're near the end. We're almost there.</line>
+		<line speaker="Nurse Whiskers" emotion="Suspicious">Can you do this?</line>
+	</scene>
+	<scene num="9" name="Victory">
+		<line speaker="Dr. Paws" emotion="Surprise">You... you did it.</line>
+		<line speaker="Dr. Paws" emotion="Neutral">You've cured Kitty Zombification.</line>
+		<line speaker="Dr. Paws" emotion="Happy">There's hope in the world again.</line>
+		<line speaker="Nurse Whiskers" emotion="Happy">Thank you. Thank you so much.</line>
+		<line speaker="Nurse Whiskers" emotion="Pride">I always knew you could do it.</line>
+</scene>
 	
 </root>

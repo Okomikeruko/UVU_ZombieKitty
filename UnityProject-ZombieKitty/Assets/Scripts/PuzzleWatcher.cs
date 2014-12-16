@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 public class PuzzleWatcher : MonoBehaviour {
 
@@ -34,6 +35,8 @@ public class PuzzleWatcher : MonoBehaviour {
 		levelSplitter = LevelSplitter.GetComponent<LevelSplitter>();
 		TimeRemaining = puzzleParser.currentPuzzle.rows.Count * 
 			puzzleParser.currentPuzzle.rows[0].cells.Count * 12;
+
+		levelIndex = puzzleParser.currentLevelIndex;
 
 		watcher += victory;
 		watcher += defeat;
@@ -81,7 +84,7 @@ public class PuzzleWatcher : MonoBehaviour {
 		finish.lives = lives;
 		finish.besttime = Mathf.FloorToInt(TimeRemaining);
 		finish.highscore = score;
-		
+		Debug.Log (levelIndex + " " + puzzleIndex);
 		currentPlayer.progress.Level[levelIndex].puzzle[puzzleIndex].puzzleRuns.Add (finish);
 		
 		playerData.SaveData();
