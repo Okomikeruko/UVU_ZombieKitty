@@ -34,6 +34,18 @@ public class PlayerData : MonoBehaviour {
 		Application.LoadLevel("Menu");
 	}
 
+	void OnLevelWasLoaded(int level){
+		if (level > 1){
+			foreach(GameObject music in GameObject.FindGameObjectsWithTag("Music")){
+				music.audio.volume *= CurrentPlayer.settings.musicVolume;
+			}
+
+			foreach(GameObject soundFX in GameObject.FindGameObjectsWithTag("SFX")){
+				soundFX.audio.volume *= CurrentPlayer.settings.sfxVolume;
+			}
+		}
+	}
+
 	int getCurrentLevel(Player p) {
 		foreach (LevelProgress l in p.progress.Level){
 			foreach(PuzzleData puzzle in l.puzzle){

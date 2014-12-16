@@ -22,6 +22,7 @@ public class PlayMenuGUI : MonoBehaviour {
 		bool noob = playerData.CurrentPlayer.progress.Level[0].puzzle[0].puzzleRuns.Count == 0;
 		if(GUI.Button (NewGame.AnchoredRect(), NewGame.content, NewGame.style))
 		{
+			audio.Play();
 			if (!noob)
 			{
 				if(EditorUtility.DisplayDialog(
@@ -45,28 +46,33 @@ public class PlayMenuGUI : MonoBehaviour {
 		GUI.enabled = !noob;
 		if(GUI.Button (Resume.AnchoredRect(), Resume.content, Resume.style))
 		{
+			audio.Play();
 			puzzleParser.currentPuzzle = NextPuzzle();
 			Application.LoadLevel("Game");
 		}
 		GUI.enabled = true;
 		if(GUI.Button (Back.AnchoredRect(), Back.content, Back.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu(Back.menuObject, this.gameObject);
 		}
 		if(GUI.Button (BeginnerLevels.AnchoredRect(), BeginnerLevels.content, BeginnerLevels.style))
 		{
+			audio.Play();
 			levelMenuGUI.level = 0;
 			MenuController.ChangeMenu(LevelMenuObject, this.gameObject);
 		}
 		GUI.enabled = playerData.CurrentPlayer.progress.Level[2].puzzle[9].puzzleRuns.Count > 0;
 		if(GUI.Button (IntermediateLevels.AnchoredRect (), IntermediateLevels.content, IntermediateLevels.style))
 		{
+			audio.Play();
 			levelMenuGUI.level = 1;
 			MenuController.ChangeMenu(LevelMenuObject, this.gameObject);
 		}
 		GUI.enabled = playerData.CurrentPlayer.progress.Level[5].puzzle[11].puzzleRuns.Count > 0;
 		if(GUI.Button (AdvancedLevels.AnchoredRect(), AdvancedLevels.content, AdvancedLevels.style))
 		{
+			audio.Play();
 			levelMenuGUI.level = 2;
 			MenuController.ChangeMenu(LevelMenuObject, this.gameObject);
 		}

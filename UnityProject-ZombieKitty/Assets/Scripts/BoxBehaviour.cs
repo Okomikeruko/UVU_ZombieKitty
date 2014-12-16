@@ -13,6 +13,8 @@ public class BoxBehaviour : MonoBehaviour {
 	public string state = "hand";
 	public int mode = 1, kittyScore = 50, zombieScore = 50;
 	public GameObject highlightPlane;
+	public AudioClip KittyHappy, KittyShot, ZombieBite, ZombieShot;
+	public ParticleSystem KittyHappyFX, KittyShotFX, ZombieBiteFX, ZombieShotFX; 
 
 	private PuzzleWatcher pw;
 	private GameGUI gameGUI;
@@ -64,10 +66,14 @@ public class BoxBehaviour : MonoBehaviour {
 		case "hand":
 			if (kitty)
 			{
+				audio.clip = KittyHappy;
+//				KittyHappyFX.Play ();
 				pw.score += kittyScore;
 			}
 			else
 			{
+				audio.clip = ZombieBite;
+//				ZombieBiteFX.Play ();
 				pw.bites++;
 				pw.TimeRemaining -= 30 * pw.bites;
 			}
@@ -75,17 +81,21 @@ public class BoxBehaviour : MonoBehaviour {
 		case "shotgun":
 			if (kitty)
 			{
+				audio.clip = KittyShot;
+//				KittyShotFX();
 				pw.lives--;
 			}
 			else
 			{
+				audio.clip = ZombieShot;
+//				ZombieShotFX.Play();
 				pw.score += zombieScore;
 			}
 			break;
 		default:
 			break;
 		}
-
+		audio.Play();
 		open ();
 	}
 

@@ -16,16 +16,19 @@ public class MainMenuGUI : MonoBehaviour {
 	void OnGUI() {
 		if(GUI.Button (Play.AnchoredRect(), Play.content, Play.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu(Play.menuObject, this.gameObject);
 		}
 
 		if(GUI.Button (Options.AnchoredRect(), Options.content, Options.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu(Options.menuObject, this.gameObject);
 		}
 
 		if(GUI.Button (User.AnchoredRect(), User.content, User.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu (User.menuObject, this.gameObject);
 		}
 		Player.style.fontSize = Mathf.RoundToInt(24.0F * Screen.height / 458.0F);

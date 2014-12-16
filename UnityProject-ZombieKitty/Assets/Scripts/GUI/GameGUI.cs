@@ -27,6 +27,7 @@ public class GameGUI : MonoBehaviour {
 
 		if (GUI.Button(pause.AnchoredRect (), pause.content, pause.style))
 		{
+			audio.Play();
 			paused = true;
 			Time.timeScale = 0;
 			pause.menuObject.SetActive(true);
@@ -39,6 +40,7 @@ public class GameGUI : MonoBehaviour {
 
 		if (GUI.Button(help.AnchoredRect(), help.content, help.style) && anyTrue (helpCounter))
 		{
+			audio.Play();
 			GameObject[] cells = GameObject.FindGameObjectsWithTag("Cell");
 			List<GameObject> cellList = new List<GameObject>();
 			foreach(GameObject cell in cells)
@@ -64,21 +66,25 @@ public class GameGUI : MonoBehaviour {
 		{
 			if(GUI.Toggle(shotgun.AnchoredRect(), ShotgunMode, shotgun.content, shotgun.style))
 			{
+				audio.Play();
 				ShotgunMode = true;
 				BasketMode = false;
 			}
 			if(GUI.Toggle(basket.AnchoredRect(), BasketMode, basket.content, basket.style))
 			{
+				audio.Play();
 				ShotgunMode = false;
 				BasketMode = true;
 			}
 		}else if(playerData.CurrentPlayer.settings.playmode == 0){
 			if(GUI.Button(shotgun.AnchoredRect(), shotgun.content, shotgun.style))
 			{
+				audio.Play();
 				groupClick ("shotgun");
 			}
 			if(GUI.Button(basket.AnchoredRect(), basket.content, basket.style))
 			{
+				audio.Play();
 				groupClick ("hand");
 			}
 		}

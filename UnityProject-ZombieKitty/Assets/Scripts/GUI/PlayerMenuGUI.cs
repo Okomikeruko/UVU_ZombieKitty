@@ -26,39 +26,14 @@ public class PlayerMenuGUI : MonoBehaviour {
 			Rect cur = player.AnchoredRect();
 			cur.y += cur.height * (i % down);
 			cur.x += cur.width * (i / down);
-			/*
-			Rect del = delete.AnchoredRect();
-			del.y += cur.height * (i % down);
-			del.x += cur.width * (i / down);
-*/
+
 			if(playerData.playerData != null && i < playerData.playerData.players.Count)
 			{
 				GUI.depth = 0;
-/*				if(GUI.Button (del, delete.content, delete.style )){
-					if (!playerData.playerData.players[i].isCurrent)
-					{
-						if(EditorUtility.DisplayDialog (
-							"Warning!",
-							"You are about to delete a player. This cannot be undone.",
-							"Confirm",
-							"Cancel")){
-							playerData.playerData.players.RemoveAt (i);
-							playerData.SaveData();
-						}
-					}
-					else
-					{
-						if(EditorUtility.DisplayDialog(
-							"Notice:",
-							"You cannot delete the current player.",
-							"OK")){}
-					}
 
-				}
-				GUI.depth = 1;
-*/
 				if(GUI.Toggle (cur, playerData.playerData.players[i].isCurrent, playerData.playerData.players[i].name, player.style))
 				{
+					audio.Play();
 					playerData.playerData.setCurrentPlayer(playerData.playerData.players[i].name);
 					playerData.CurrentPlayer = playerData.playerData.players[i];
 					foreach (LevelProgress l in playerData.CurrentPlayer.progress.Level){
@@ -76,6 +51,7 @@ public class PlayerMenuGUI : MonoBehaviour {
 			{
 				if(GUI.Button(cur, "New Player", player.style))
 				{
+					audio.Play();
 					MenuController.ChangeMenu(newPlayer, this.gameObject);
 				}
 				GUI.enabled = false;
@@ -84,6 +60,7 @@ public class PlayerMenuGUI : MonoBehaviour {
 		GUI.enabled = true;
 		if(GUI.Button (MainMenu.AnchoredRect(), MainMenu.content, MainMenu.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu(MainMenu.menuObject, this.gameObject);
 		}
 	}

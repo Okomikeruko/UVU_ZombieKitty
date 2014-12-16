@@ -29,6 +29,7 @@ public class NewUserGUI : MonoBehaviour {
 
 		if(GUI.Button (Back.AnchoredRect(), Back.content, Back.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu (Back.menuObject, this.gameObject);
 		}
 
@@ -36,6 +37,7 @@ public class NewUserGUI : MonoBehaviour {
 
 		if(GUI.Button (Submit.AnchoredRect (), Submit.content, Submit.style))
 		{
+			audio.Play();
 			Player newPlayer = new Player(newName);
 			playerData.playerData.players.Add(newPlayer);
 			playerData.playerData.setCurrentPlayer(newName);

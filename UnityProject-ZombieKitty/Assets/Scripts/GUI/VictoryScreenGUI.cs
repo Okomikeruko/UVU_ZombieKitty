@@ -20,15 +20,18 @@ public class VictoryScreenGUI : MonoBehaviour {
 		GUI.depth = 1;
 
 		if(GUI.Button (restart.AnchoredRect(), restart.content, restart.style)){
+			audio.Play();
 			Application.LoadLevel(Application.loadedLevel);
 		}
 
 		if(GUI.Button (menu.AnchoredRect(), menu.content, menu.style)){
+			audio.Play();
 			puzzleParser.currentPuzzle = puzzleParser.getNextPuzzle(puzzleParser.currentPuzzle); 
 			Application.LoadLevel ("Menu");
 		}
 
 		if(GUI.Button (next.AnchoredRect(), next.content, next.style)){
+			audio.Play();
 			bool isLast = puzzleParser.IsLast(puzzleParser.currentPuzzle);
 			if(puzzleParser.isLastPuzzle)
 			{

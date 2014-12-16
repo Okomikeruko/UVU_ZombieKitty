@@ -17,17 +17,20 @@ public class PauseScreenGUI : MonoBehaviour {
 
 		if (GUI.Button (resume.AnchoredRect(), resume.content, resume.style))
 		{
+			audio.Play();
 			restoreGame();
 		}
 
 		if (GUI.Button (restart.AnchoredRect(), restart.content, restart.style))
 		{
+			audio.Play();
 			restoreGame ();
 			Application.LoadLevel(Application.loadedLevel);
 		}
 
 		if (GUI.Button (mainMenu.AnchoredRect(), mainMenu.content, mainMenu.style))
 		{
+			audio.Play();
 			restoreGame ();
 			Application.LoadLevel ("Menu");
 		}

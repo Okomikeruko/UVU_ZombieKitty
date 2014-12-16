@@ -27,6 +27,7 @@ public class LevelMenuGUI : MonoBehaviour {
 
 		if(GUI.Button (MainMenu.AnchoredRect(), MainMenu.content, MainMenu.style))
 		{
+			audio.Play();
 			MenuController.ChangeMenu(MainMenu.menuObject, this.gameObject);
 		}
 
@@ -64,6 +65,7 @@ public class LevelMenuGUI : MonoBehaviour {
 				if (GUI.Button (buttonRect, 
 				                PuzzleButtons[0].content, 
 				                buttonStyle)){
+					audio.Play();
 					puzzleParser.currentPuzzle = puzzleParser.allPuzzles.levels[(3*level)+i].puzzles[j];
 					Application.LoadLevel("Game");
 				}

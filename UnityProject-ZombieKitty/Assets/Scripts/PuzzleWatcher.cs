@@ -84,7 +84,6 @@ public class PuzzleWatcher : MonoBehaviour {
 		finish.lives = lives;
 		finish.besttime = Mathf.FloorToInt(TimeRemaining);
 		finish.highscore = score;
-		Debug.Log (levelIndex + " " + puzzleIndex);
 		currentPlayer.progress.Level[levelIndex].puzzle[puzzleIndex].puzzleRuns.Add (finish);
 		
 		playerData.SaveData();

@@ -81,6 +81,7 @@ public class LevelSplitter : MonoBehaviour {
 	void OnGUI () {
 		if(canClose){
 			if(GUI.Button (exit.AnchoredRect(), exit.content, exit.style)) {
+				audio.Play();
 				GameObject.Find ("GameGUI").GetComponent<GameGUI>().paused = false;
 				Time.timeScale = 1;
 				this.gameObject.SetActive(false);
@@ -88,9 +89,11 @@ public class LevelSplitter : MonoBehaviour {
 		}
 		if(!difficultySet) {
 			if (GUI.Button (easy.AnchoredRect(), easy.content, easy.style)) {
+				audio.Play();
 				SetDifficulty(true);
 			}
 			if (GUI.Button (hard.AnchoredRect(), hard.content, hard.style)) {
+				audio.Play();
 				SetDifficulty(false);
 			}
 		}
@@ -98,12 +101,13 @@ public class LevelSplitter : MonoBehaviour {
 		{
 			sectionSelect = (GUI.SelectionGrid(grid.AnchoredRect(), sectionSelect, minimap, splitLevel.sections.Count, grid.style));
 		}
+		
 	}
 
 	void OnMouseUp(){
 		if (sectionSelect > -1)
 		{
-
+			audio.Play();
 			SetSection(sectionSelect);
 		}
 	}

@@ -9,6 +9,22 @@ public class MenuController : MonoBehaviour {
 		self.SetActive(false);
 		obj.SetActive(true);
 	}
+
+	private Player currentPlayer;
+
+	void Start(){
+		currentPlayer = GameObject.Find("PlayerData").GetComponent<PlayerData>().CurrentPlayer;
+	}
+
+	void Update() {
+		foreach(GameObject music in GameObject.FindGameObjectsWithTag("Music")){
+			music.audio.volume = currentPlayer.settings.musicVolume;
+		}
+		
+		foreach(GameObject soundFX in GameObject.FindGameObjectsWithTag("SFX")){
+			soundFX.audio.volume = currentPlayer.settings.sfxVolume;
+		}
+	}
 }
 
 public enum Anchor{

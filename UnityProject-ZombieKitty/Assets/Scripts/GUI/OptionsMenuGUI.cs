@@ -21,6 +21,7 @@ public class OptionsMenuGUI : MonoBehaviour {
 
 		if(GUI.Button (MainMenu.AnchoredRect(), MainMenu.content, MainMenu.style))
 		{
+			audio.Play();
 			GameObject.Find ("PlayerData").GetComponent<PlayerData>().SaveData();
 			MenuController.ChangeMenu(MainMenu.menuObject, this.gameObject);
 		}
@@ -46,5 +47,9 @@ public class OptionsMenuGUI : MonoBehaviour {
 			modeTextures, 
 			modeTextures.Length, 
 			Mode.style);
+
+		if (GUI.changed) {
+			audio.Play();
+		}
 	}
 }
